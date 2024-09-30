@@ -81,3 +81,10 @@ Note: They are billable even if you dont use it
 - Latest version of Preemptible VM
 - No restriction on time
 - similar restrictions to Preemptible VM
+
+# Migration of VM
+- Migration is enabled by default in 'Availability policy '
+- It can be migrated to another host in same zone
+- support for instances of Local SSD's
+- No support for GPU and preemptible instances
+- **It is configured in Availability policy [Maintainance Or Restart]**
