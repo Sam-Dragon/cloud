@@ -35,7 +35,7 @@ Ex. war zone, no-parking zone
 - External - addresses which are internet accessible
 - VM instance must have internal ip. external ip is present if internet accessible but if vm instance stops we lose external ip
 
-Problem - External ip keeps changing on vm restart ? How to avoid
+Problem - External ip keeps changing on vm restart ? How to avoid <br>
 Solution - one way we can use is 'static ip' or use load balancers
 
 > Static IP Address [VPC Network]
@@ -62,6 +62,10 @@ Note: They are billable even if you dont use it
   - Limited to specific machine types
   - Cannot be used for maintainance
   - Allow restart always
+
+> Affinity
+- To make sure specific types or group of pods runs in the server, we provide affinity rules
+- It can be configured under 'Sole Tenancy' of VM configuration
 
 # Simplifying vm instance setup
 > Startup scripts
