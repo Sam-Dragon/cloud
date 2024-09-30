@@ -64,15 +64,15 @@ Note: They are billable even if you dont use it
   - Allow restart always
 
 # Simplifying vm instance setup
-- Startup scripts
+> Startup scripts
   - on load, we can provide all plugins to install
 
-- Instance template [Recommended]
+> Instance template [Recommended]
   - used to create vm instances or create instance groups
   - we cannot update the template created. Copy and modify it
   - Image family can be specified
   
-- custom image
+> Custom Image
   - In order to prevent installation of os patches and software on launch of vm instances increase the boot time
   we create image out of instance
   - It is sharable
