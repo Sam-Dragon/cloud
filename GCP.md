@@ -59,4 +59,19 @@ Note: They are billable even if you dont use it
   - It is sharable
   - Deprecate old images
   - Security
-  
+
+
+# Preemptible VM
+- Short-lived cheaper compute instances [spot instances like AWS]
+
+> Usage
+- If application in fault tolerant
+- If it is cost sensesitive
+- Workload is not immediate
+<br>Ex: Non-immediate batch processing jobs
+
+> Restrictions
+- Not always available
+- No SLA & cannot be migrated to regular VM's
+- No automatic restarts
+- No discounts
