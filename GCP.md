@@ -10,7 +10,7 @@
 > Regions & Zones
 - region is large area with common features. 
 - geographical location to host resources
-- Region is 'zones'
+- Region contains 'zones'
 Ex. monsoon region, mountanious region
 
 > Advantages
