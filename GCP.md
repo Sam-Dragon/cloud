@@ -44,6 +44,16 @@ Solution - one way we can use is 'static ip' or use load balancers
 - It needs to be removed
 Note: They are billable even if you dont use it 
 
+> Machine Types
+- Basically contains the configuations of the hardware [CPU, Memory, GPU]
+- There are predefined machine types are provided but we can still customize it
+- Custom machine types are restricted to machine types such as N2. E1 etc..
+
+> Availability policy
+- It is mainly for migration activities or short lived activities
+- Migration is On by default
+- short lived activites needs to be configured 
+
 # Simplifying vm instance setup
 - Startup scripts
   - on load, we can provide all plugins to install
@@ -59,7 +69,6 @@ Note: They are billable even if you dont use it
   - It is sharable
   - Deprecate old images
   - Security
-
 
 # Preemptible VM
 - Short-lived cheaper compute instances [spot instances like AWS]
@@ -83,7 +92,7 @@ Note: They are billable even if you dont use it
 - similar restrictions to Preemptible VM
 
 # Migration of VM
-- Migration is enabled by default in 'Availability policy '
+- Migration is enabled by default in 'Availability policy'
 - It can be migrated to another host in same zone
 - support for instances of Local SSD's
 - No support for GPU and preemptible instances
