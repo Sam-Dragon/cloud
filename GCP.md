@@ -11,7 +11,7 @@
 - region is large area with common features. 
 - geographical location to host resources
 - Region contains 'zones'
-Ex. monsoon region, mountanious region <br>
+<br> Ex. monsoon region, mountanious region <br>
 
 > Advantages
 - prevents slow access to other users in the world. low latency
