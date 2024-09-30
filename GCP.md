@@ -23,7 +23,6 @@
 - each zone has data centers
 Ex. war zone, no-parking zone
 
-
 # Compute Engine
 - provision and manage Virtual machines (VM's) [Virtual machines - virtual servers in GCP]
 - create & manage lifecycle of VM's
@@ -53,6 +52,16 @@ Note: They are billable even if you dont use it
 - It is mainly for migration activities or short lived activities
 - Migration is On by default
 - short lived activites needs to be configured 
+
+> GPU
+- High performance for math intensive & graph intensive workloads
+- High cost
+- Use images for GPU libraries
+
+  > Restrictions
+  - Limited to specific machine types
+  - Cannot be used for maintainance
+  - Allow restart always
 
 # Simplifying vm instance setup
 - Startup scripts
