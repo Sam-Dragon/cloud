@@ -31,7 +31,7 @@ Ex. war zone, no-parking zone
 - Attach Storage [& network storage] to VM's
 - Manage Network connectivity & configuration of VM's
 
-# IP's
+> IP's
 - Internal - addresses which are internal to particular network
 - External - addresses which are internet accessible
 - VM instance must have internal ip. external ip is present if internet accessible but if vm instance stops we lose external ip
@@ -39,7 +39,7 @@ Ex. war zone, no-parking zone
 Problem - External ip keeps changing on vm restart ? How to avoid
 Solution - one way we can use is 'static ip' or use load balancers
 
-# Static IP Address [VPC Network]
+> Static IP Address [VPC Network]
 - It is re-assignable
 - It needs to be removed
 Note: They are billable even if you dont use it 
