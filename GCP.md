@@ -57,5 +57,6 @@ Note: They are billable even if you dont use it
   - In order to prevent installation of os patches and software on launch of vm instances increase the boot time
   we create image out of instance
   - It is sharable
+  - Deprecate old images
   - Security
   
