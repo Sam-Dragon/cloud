@@ -110,3 +110,10 @@ Note: They are billable even if you dont use it
 - support for instances of Local SSD's
 - No support for GPU and preemptible instances
 - **It is configured in Availability policy [Maintainance Or Restart]**
+
+# Best Practices
+- Ensure VM configuration is based on project, cost & api's enablement
+- Node affinity can be configured on server
+- OS patch for large number of VM's can be done via VM Manager
+- Install software can be done via SSH
+- Prevent exposing VM to Internet can be done by prevent external address allocation via Firewall rules
