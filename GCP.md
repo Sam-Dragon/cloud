@@ -63,6 +63,7 @@ Note: They are billable even if you dont use it
 
 # Preemptible VM
 - Short-lived cheaper compute instances [spot instances like AWS]
+- It lives upto 24hrs
 
 > Usage
 - If application in fault tolerant
@@ -75,3 +76,8 @@ Note: They are billable even if you dont use it
 - No SLA & cannot be migrated to regular VM's
 - No automatic restarts
 - No discounts
+
+# Spot VM
+- Latest version of Preemptible VM
+- No restriction on time
+- similar restrictions to Preemptible VM
