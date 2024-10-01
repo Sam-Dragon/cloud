@@ -7,11 +7,11 @@
 - gcloud init
 
 # Base Configuration
-> List
-- gcloud config list
+- Group = config
 
-> List & find specific attribute
-- gcloud config list [Attribute]
+# Sample 
+> List with attribute
+- gcloud config list [ATTRIBUTE]
 
 > Set
 - gcloud config set compute/region [REGION]
@@ -19,55 +19,39 @@
 > UnSet
 - gcloud config unset compute/region [REGION]
 
-# Module configurations
+# Operations
 > List
-- gcloud config configurations list
+- gcloud GROUP SUB-GROUP ACTION ..
 
-> Create & set
-- gcloud config configurations create my-default-configuration
+> ACTIONS = create, activate, delete, describe, list
 
-> Describe
-- gcloud config configurations describe my-default-configuration
-
-> Delete
-- gcloud config configurations delete my-default-configuration
-
-> Set
-- gcloud config configurations activate my-default-configuration
-
-# VM Instances
-- Make sure project, region, zone is associated
-
+# Sample
 > List
-- gcloud compute instances list
+- gcloud configs configurations list
 
+> List with filter
+- gcloud configs configurations list --filter [Field]:[Value]
+
+> List with sorting
+- gcloud configs configurations list --sort-by [Field]
+    
 > Create
-- gcloud compute instances create my-first-instance-from-gcloud
+- gcloud configs configurations create my-first-configs
 
 > Describe
-- gcloud compute instances describe my-first-instance-from-gcloud
+- gcloud configs configurations describe my-first-configs
 
 > Delete
-- gcloud compute instances delete my-first-instance-from-gcloud
+- gcloud configs configurations delete my-first-configs
 
+> Activate
+- gcloud configs configurations activate my-first-configs
 
-- gcloud compute zones list
-- gcloud compute regions list
-- gcloud compute machine-types list
- 
-- gcloud compute machine-types list --filter zone:asia-southeast2-b
-- gcloud compute machine-types list --filter "zone:(asia-southeast2-b asia-southeast2-c)"
-- gcloud compute zones list --filter=region:us-west2
-- gcloud compute zones list --sort-by=region
-- gcloud compute zones list --sort-by=~region
-- gcloud compute zones list --uri
-- gcloud compute regions describe us-west4
- 
-- gcloud compute instance-templates list
-- gcloud compute instance-templates create instance-template-from-command-line
-- gcloud compute instance-templates delete instance-template-from-command-line
-- gcloud compute instance-templates describe my-instance-template-with-custom-image
+# Module Configurations
+  - GROUP = configs
+  - SUB-GROUP = configurations
 
-> Set / unset the project
-- gcloud config set project <PROJECT>
-- gcloud config unset project <PROJECT>
+# VM Instances, Zones, Regions, Machine Types, Instance Templates
+- Make sure project, region, zone is associated
+- GROUP = compute
+- SUB-GROUP = instances, zones, regions, machine-types, instance-templates
