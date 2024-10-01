@@ -14,20 +14,20 @@
 - gcloud config list <Attribute>
 
 # Module configurations
-- List
-gcloud config configurations list
+> List
+- gcloud config configurations list
 
-- Create & set
-gcloud config configurations create my-default-configuration
+> Create & set
+- gcloud config configurations create my-default-configuration
 
-- Describe
-gcloud config configurations describe my-default-configuration
+> Describe
+- gcloud config configurations describe my-default-configuration
 
-- Delete
-gcloud config configurations delete my-default-configuration
+> Delete
+- gcloud config configurations delete my-default-configuration
 
-- Set
-gcloud config configurations activate my-default-configuration
+> Set
+- gcloud config configurations activate my-default-configuration
 
 
 
