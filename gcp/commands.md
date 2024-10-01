@@ -6,6 +6,12 @@
 > Initialize
 - gcloud init
 
+# Operations
+> List
+- gcloud GROUP SUB-GROUP ACTION ..
+
+> ACTIONS = create, activate, delete, describe, list
+
 # Base Configuration
 - Group = config
 
@@ -19,13 +25,7 @@
 > UnSet
 - gcloud config unset compute/region [REGION]
 
-# Operations
-> List
-- gcloud GROUP SUB-GROUP ACTION ..
-
-> ACTIONS = create, activate, delete, describe, list
-
-# Sample
+# Common
 > List
 - gcloud configs configurations list
 
@@ -36,16 +36,19 @@
 - gcloud configs configurations list --sort-by [Field]
     
 > Create
-- gcloud configs configurations create my-first-configs
+- gcloud configs configurations create [VALUE]
 
 > Describe
-- gcloud configs configurations describe my-first-configs
+- gcloud configs configurations describe [VALUE]
 
 > Delete
-- gcloud configs configurations delete my-first-configs
+- gcloud configs configurations delete [VALUE]
 
 > Activate
-- gcloud configs configurations activate my-first-configs
+- gcloud configs configurations activate [VALUE]
+
+> Rename
+- gcloud configs configurations rename [OLD_VALUE] [NEW_VALUE]
 
 # Module Configurations
   - GROUP = configs
