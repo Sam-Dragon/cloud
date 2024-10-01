@@ -56,7 +56,3 @@
 > Set / unset the project
 - gcloud config set project <PROJECT>
 - gcloud config unset project <PROJECT>
-
-
-> Manage multiple configurations
-- 
