@@ -13,6 +13,12 @@
 > List & find specific attribute
 - gcloud config list [Attribute]
 
+> Set
+- gcloud config set compute/region [REGION]
+
+> UnSet
+- gcloud config unset compute/region [REGION]
+
 # Module configurations
 > List
 - gcloud config configurations list
@@ -29,13 +35,21 @@
 > Set
 - gcloud config configurations activate my-default-configuration
 
-# Instances
+# VM Instances
 
+> List
 - gcloud compute instances list
-- gcloud compute instances create
-- gcloud compute instances create my-first-instance-from-- gcloud
-- gcloud compute instances describe my-first-instance-from-- gcloud
-- gcloud compute instances delete my-first-instance-from-- gcloud
+
+> Create
+- gcloud compute instances create my-first-instance-from-gcloud
+
+> Describe
+- gcloud compute instances describe my-first-instance-from-gcloud
+
+> Delete
+- gcloud compute instances delete my-first-instance-from-gcloud
+
+
 - gcloud compute zones list
 - gcloud compute regions list
 - gcloud compute machine-types list
