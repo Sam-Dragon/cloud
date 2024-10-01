@@ -129,7 +129,7 @@ Note: They are billable even if you dont use it
 - gcloud config list project
 - gcloud config configurations list
 - gcloud config configurations activate my-default-configuration
-- gcloud config list
+
 - gcloud config configurations describe my-second-configuration
 - gcloud compute instances list
 - gcloud compute instances create
@@ -152,3 +152,13 @@ Note: They are billable even if you dont use it
 - gcloud compute instance-templates create instance-template-from-command-line
 - gcloud compute instance-templates delete instance-template-from-command-line
 - gcloud compute instance-templates describe my-instance-template-with-custom-image
+
+> Set / unset the project
+- gcloud config set project <PROJECT>
+- gcloud config unset project <PROJECT>
+
+> Help
+- gcloud config --help
+
+> Manage multiple configurations
+- 
