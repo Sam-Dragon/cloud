@@ -117,3 +117,38 @@ Note: They are billable even if you dont use it
 - OS patch for large number of VM's can be done via VM Manager
 - Install software can be done via SSH
 - Prevent exposing VM to Internet can be done by prevent external address allocation via Firewall rules
+
+# GCloud
+- It is command line interface to interact with google cloud resources [CRUD]
+- Most services can be managed with gcloud cli. i.e. VM, instance groups, database etc..
+
+> Commands
+- gcloud --version
+- gcloud init
+- gcloud config list
+- gcloud config list project
+- gcloud config configurations list
+- gcloud config configurations activate my-default-configuration
+- gcloud config list
+- gcloud config configurations describe my-second-configuration
+- gcloud compute instances list
+- gcloud compute instances create
+- gcloud compute instances create my-first-instance-from-- gcloud
+- gcloud compute instances describe my-first-instance-from-- gcloud
+- gcloud compute instances delete my-first-instance-from-- gcloud
+- gcloud compute zones list
+- gcloud compute regions list
+- gcloud compute machine-types list
+ 
+- gcloud compute machine-types list --filter zone:asia-southeast2-b
+- gcloud compute machine-types list --filter "zone:(asia-southeast2-b asia-southeast2-c)"
+- gcloud compute zones list --filter=region:us-west2
+- gcloud compute zones list --sort-by=region
+- gcloud compute zones list --sort-by=~region
+- gcloud compute zones list --uri
+- gcloud compute regions describe us-west4
+ 
+- gcloud compute instance-templates list
+- gcloud compute instance-templates create instance-template-from-command-line
+- gcloud compute instance-templates delete instance-template-from-command-line
+- gcloud compute instance-templates describe my-instance-template-with-custom-image
