@@ -7,10 +7,10 @@
 - gcloud init
 
 # Configuration
-- List
+> List
 - gcloud config list
 
-- List & find specific attribute
+> List & find specific attribute
 - gcloud config list <Attribute>
 
 # Module configurations
