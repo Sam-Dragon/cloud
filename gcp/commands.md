@@ -11,7 +11,7 @@
 - gcloud config list
 
 > List & find specific attribute
-- gcloud config list <Attribute>
+- gcloud config list [Attribute]
 
 # Module configurations
 > List
