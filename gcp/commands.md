@@ -6,7 +6,7 @@
 > Initialize
 - gcloud init
 
-# Configuration
+# Base Configuration
 > List
 - gcloud config list
 
@@ -36,6 +36,7 @@
 - gcloud config configurations activate my-default-configuration
 
 # VM Instances
+- Make sure project, region, zone is associated
 
 > List
 - gcloud compute instances list
