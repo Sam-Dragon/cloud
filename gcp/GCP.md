@@ -8,20 +8,20 @@
 - It is Iaas service unlike amazon which is Paas service
 
 > Regions & Zones
-- region is large area with common features. 
-- geographical location to host resources
+- It is large area with common features. 
+- Geographical location to host resources
 - Region contains 'zones'
 <br> Ex. monsoon region, mountanious region <br>
 
 > Advantages
-- prevents slow access to other users in the world. low latency
-- prevents data center crash. High availablity
-- global footprint
+- Prevents slow access to other users in the world. low latency
+- Prevents data center crash. High availablity
+- Global footprint
 - Adhere govt regulations
 
 > Zone
 - It is small area that differs from its surroundings in some way [special area]. 
-- each zone has data centers
+- Each zone has data centers
 Ex. war zone, no-parking zone
 
 # Compute Engine
@@ -125,3 +125,13 @@ Note: They are billable even if you dont use it
 
 # Instance Groups
 - Group of vm instances managed as a single entity
+- Manage group of similar VM's having similar lifecycle as One Unit
+
+> Types
+- Managed [Recommended]
+  - Identical VM's created using templates
+  - Features: Auto scaling, Auto Healing & Manage releases
+
+- UnManaged [Not Recommended]
+  - Different configuration of VM in same group
+  - It doesn't offer Auto scaling, Auto Healing & Manage releases
