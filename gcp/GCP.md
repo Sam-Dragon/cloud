@@ -127,6 +127,7 @@ Note: They are billable even if you dont use it
 - Group of vm instances managed as a single entity
 - Manage group of similar VM's having similar lifecycle as One Unit
 - It mandatorily requires **instance template**
+- It can be created as stateless & stateful [database + rest api] as well
 
 > Types
 - Managed - MIG [Recommended]
