@@ -128,9 +128,15 @@ Note: They are billable even if you dont use it
 - Manage group of similar VM's having similar lifecycle as One Unit
 
 > Types
-- Managed [Recommended]
+- Managed - MIG [Recommended]
   - Identical VM's created using templates
-  - Features: Auto scaling, Auto Healing & Manage releases
+  - manages the certain number of instances
+  - Features:
+    - Auto scaling: scale based on the load
+    - Auto Healing: detection of failures and recovering from it
+    - Add load balancer to distribute the load
+    - Create instances in multiple zones
+    - Release new application without any downtime [Rolling updates or canary deployment]
 
 - UnManaged [Not Recommended]
   - Different configuration of VM in same group
