@@ -27,28 +27,28 @@
 
 # Common
 > List
-- gcloud configs configurations list
+- gcloud config configurations list
 
 > List with filter
-- gcloud configs configurations list --filter [Field]:[Value]
+- gcloud config configurations list --filter [Field]:[Value]
 
 > List with sorting
-- gcloud configs configurations list --sort-by [Field]
+- gcloud config configurations list --sort-by [Field]
     
 > Create
-- gcloud configs configurations create [VALUE]
+- gcloud config configurations create [VALUE]
 
 > Describe
-- gcloud configs configurations describe [VALUE]
+- gcloud config configurations describe [VALUE]
 
 > Delete
-- gcloud configs configurations delete [VALUE]
+- gcloud config configurations delete [VALUE]
 
 > Activate
-- gcloud configs configurations activate [VALUE]
+- gcloud config configurations activate [VALUE]
 
 > Rename
-- gcloud configs configurations rename [OLD_VALUE] [NEW_VALUE]
+- gcloud config configurations rename [OLD_VALUE] [NEW_VALUE]
 
 # Module Configurations
   - GROUP = configs
@@ -58,3 +58,35 @@
 - Make sure project, region, zone is associated
 - GROUP = compute
 - SUB-GROUP = instances, zones, regions, machine-types, instance-templates
+
+# VM Instances
+- GROUP = compute
+- SUB-GROUP = instances
+
+> Create
+- gcloud config configurations create [VALUE]
+
+  > Flags
+  - --machine-type
+  - --custom-cpu --custom-memory --custom-vm-type
+  - --image or --image-family or --source-snapshot or --source-instance-template or --source-machine-image
+  - --service-account or --no-service-account
+  - --zone
+  - --tags
+  - --preemptible
+  - --restart-on-failure or --no-restart-on-failure or migrate-policy
+  - --boot-disk-size --boot-disk-type --boot-disk-auto-delete  --np-boot-disk-auto-delete
+  - --deletion-protection --no-deletion-protection
+  - --metadata/metadata-from-startup-script/startup-script-url
+  - --shutdown-script
+  - --network --subnet --network-tier
+  - --accelerator --metadata
+ 
+  > regions & zones
+  - Centralized configuration - default configuration for regions & zones
+  - It can be found under compute-engine > Settings > Settings
+      - gcloud compute project-info add-metadata --metadata = [REGION | ZONE]
+  - Local configuration - set region/zone for local project
+      - gcloud config set compute region/zone
+  - command specific - directly provide while creation
+      - gcloud config configurations create [VALUE] --zone --region
