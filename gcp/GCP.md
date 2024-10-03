@@ -19,13 +19,14 @@
 - global footprint
 - Adhere govt regulations
 
-- zone is small area that differs from its surroundings in some way [special area]. 
+> Zone
+- It is small area that differs from its surroundings in some way [special area]. 
 - each zone has data centers
 Ex. war zone, no-parking zone
 
 # Compute Engine
-- provision and manage Virtual machines (VM's) [Virtual machines - virtual servers in GCP]
-- create & manage lifecycle of VM's
+- Provision and manage Virtual machines (VM's) [Virtual machines - virtual servers in GCP]
+- Create & manage lifecycle of VM's
 - Load balancing & auto scaling for multiple VM's
 - Attach Storage [& network storage] to VM's
 - Manage Network connectivity & configuration of VM's
@@ -51,7 +52,7 @@ Note: They are billable even if you dont use it
 > Availability policy
 - It is mainly for migration activities or short lived activities
 - Migration is On by default
-- short lived activites needs to be configured 
+- Short lived activites needs to be configured 
 
 > GPU
 - High performance for math intensive & graph intensive workloads
@@ -69,11 +70,11 @@ Note: They are billable even if you dont use it
 
 # Simplifying vm instance setup
 > Startup scripts
-  - on load, we can provide all plugins to install
+  - On load, we can provide all plugins to install
 
 > **Instance template** [Recommended]
-  - used to create vm instances or create instance groups
-  - we cannot update the template created. Copy and modify it
+  - Used to create vm instances or create instance groups
+  - We cannot update the template created. Copy and modify it
   - Image family can be specified
   
 > **Custom Image**
@@ -102,12 +103,12 @@ Note: They are billable even if you dont use it
 # Spot VM
 - Latest version of Preemptible VM
 - No restriction on time
-- similar restrictions to Preemptible VM
+- Similar restrictions to Preemptible VM
 
 # Migration of VM
 - Migration is enabled by default in 'Availability policy'
 - It can be migrated to another host in same zone
-- support for instances of Local SSD's
+- Support for instances of Local SSD's
 - No support for GPU and preemptible instances
 - **It is configured in Availability policy [Maintainance Or Restart]**
 
@@ -121,3 +122,6 @@ Note: They are billable even if you dont use it
 # GCloud
 - It is command line interface to interact with google cloud resources [CRUD]
 - Most services can be managed with gcloud cli. i.e. VM, instance groups, database etc..
+
+# Instance Groups
+- Group of vm instances managed as a single entity
