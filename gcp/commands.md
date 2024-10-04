@@ -95,7 +95,7 @@
 - gcloud compute instances create my-test-vm --source-instance-template=my-instance-template-with-custom-image
 - gcloud compute instance-groups managed list
 - gcloud compute instance-groups managed delete my-managed-instance-group
-- gcloud compute instance-groups managed create my-mig --zone us-central1-a --template my-instance-template-with-custom-image --size 1
+- gcloud compute instance-groups managed create managed-instance-group --zone=us-central1-a  --template=projects/academic-being-436605-q7/regions/us-central1/instanceTemplates/simple-instance-template-with-startup-scripts --size=1
 - gcloud compute instance-groups managed set-autoscaling my-mig --max-num-replicas=2 --zone us-central1-a
 - gcloud compute instance-groups managed stop-autoscaling my-mig --zone us-central1-a
 - gcloud compute instance-groups managed resize my-mig --size=1 --zone=us-central1-a
