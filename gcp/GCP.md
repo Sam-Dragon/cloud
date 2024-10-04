@@ -139,6 +139,7 @@ Note: They are billable even if you dont use it
     - Add load balancer to distribute the load
     - Create instances in multiple zones
     - Release new application without any downtime [Rolling updates or canary deployment]
+      - Option: update VMS [Rolling update + Canary Testing] or Restart/Replace VMS [Restart/Replace with new VMS]
 
 - UnManaged [Not Recommended]
   - Different configuration of VM in same group
