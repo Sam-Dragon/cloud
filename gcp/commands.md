@@ -157,6 +157,7 @@
     - --replacement-method=recreate/substitute(default)
 
     > Update Instances
+    
         > Basic Version
         - gcloud compute instance-groups managed rolling-action start-update managed-instance-group --verion=template=v1-template
           
