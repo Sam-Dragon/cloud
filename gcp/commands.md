@@ -101,3 +101,6 @@ gcloud compute instance-groups managed stop-autoscaling my-mig --zone us-central
 gcloud compute instance-groups managed resize my-mig --size=1 --zone=us-central1-a
 gcloud compute instance-groups managed recreate-instances my-mig --instances=my-mig-85fb --zone us-central1-a
 gcloud compute instance-groups managed delete my-managed-instance-group --region=us-central1
+
+> Create instance with project & region
+gcloud compute instances create my-test-vm --source-instance-template=https://compute.googleapis.com/compute/v1/projects/<<PROJECT_ID>>/regions/<<REGION>>/instanceTemplates/<<INSTANCE_TEMPLATE_NAME>>
