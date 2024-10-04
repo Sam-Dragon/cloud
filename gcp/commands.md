@@ -143,3 +143,22 @@
 > Update
 - gcloud compute instance-groups managed set-instance-template managed-instance-group --template=instance-template
   
+> Rolling Actions (Deployment)
+- gcloud compute instance-groups managed rolling-action
+
+    > Restart
+    - gcloud compute instance-groups managed rolling-action restart managed-instance-group
+    - --max-surge=5 or 10%
+ 
+    > Replace (Delete & Create)
+    - gcloud compute instance-groups managed rolling-action replace managed-instance-group
+    - --max-surge=5 or 10%
+    - --max-unavailable=5 or 10%
+    - --replacement-method=recreate/substitute(default)
+
+    > Update Instances
+        > Basic Version
+        - gcloud compute instance-groups managed rolling-action start-update managed-instance-group --verion=template=v1-template
+          
+        > Canary Version
+        - gcloud compute instance-groups managed rolling-action start-update managed-instance-group --verion=template=v1-template
