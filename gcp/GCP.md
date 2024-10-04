@@ -132,7 +132,7 @@ Note: They are billable even if you dont use it
 > Types
 - Managed - MIG [Recommended]
   - Identical VM's created using templates
-  - manages the certain number of instances
+  - Manages the certain number of instances
   - Features:
     - Auto scaling: scale based on the load
     - Auto Healing: detection of failures and recovering from it
@@ -144,3 +144,10 @@ Note: They are billable even if you dont use it
 - UnManaged [Not Recommended]
   - Different configuration of VM in same group
   - It doesn't offer Auto scaling, Auto Healing & Manage releases
+
+> Use cases
+- MIG for survive zonal failures
+- Preserve VM state [Database Data]
+- High availability
+- Self healing
+- Frequent Scale up & Scale down
