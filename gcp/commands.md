@@ -96,22 +96,31 @@
 > Get
 - gcloud compute instance-groups managed list
 
-> Resize
-- gcloud compute instance-groups managed resize managed-instance-group --size=1 --zone=us-central1-a
-
-> Recreate
-- gcloud compute instance-groups managed recreate-instances managed-instance-group --instances=managed-instance-group-85fb --zone us-central1-a
-
-> Delete
-- gcloud compute instance-groups managed delete managed-instance-group --zone=us-central1-a
-- gcloud compute instance-groups managed delete managed-instance-group
-
 > Create
 - gcloud compute instance-groups managed create managed-instance-group --zone=us-central1-a  --template=projects/<PROJECT_ID>/regions/<REGION>/instanceTemplates/<INSTACE_TEMPLATE> --size=1
 
   > Flags
   - --health-check
   - --initial-delay  
+
+> Update
+- gcloud compute instance-groups managed update managed-instance-group
+
+  > Flags
+  - --health-check
+  - --initial-delay  
+  
+> Delete
+- gcloud compute instance-groups managed delete managed-instance-group --zone=us-central1-a
+- gcloud compute instance-groups managed delete managed-instance-group
+
+
+> Resize
+- gcloud compute instance-groups managed resize managed-instance-group --size=1 --zone=us-central1-a
+
+> Recreate
+- gcloud compute instance-groups managed recreate-instances managed-instance-group --instances=managed-instance-group-85fb --zone us-central1-a
+
 
 > Scaling
 - gcloud compute instance-groups managed set-autoscaling managed-instance-group --max-num-replicas=2 --zone us-central1-a
