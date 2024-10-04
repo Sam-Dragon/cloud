@@ -159,7 +159,7 @@
     > Update Instances
     
         > Basic Version
-        - gcloud compute instance-groups managed rolling-action start-update managed-instance-group --verion=template=v1-template
+        gcloud compute instance-groups managed rolling-action start-update managed-instance-group --verion=template=v1-template
           
         > Canary Version
-        - gcloud compute instance-groups managed rolling-action start-update managed-instance-group --verion=template=v1-template
+        gcloud compute instance-groups managed rolling-action start-update managed-instance-group --verion=template=v1-template --canary-version=template=v2-template, target-size=10%
