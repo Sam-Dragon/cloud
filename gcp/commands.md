@@ -114,13 +114,8 @@
 - gcloud compute instance-groups managed delete managed-instance-group --zone=us-central1-a
 - gcloud compute instance-groups managed delete managed-instance-group
 
-
 > Resize
 - gcloud compute instance-groups managed resize managed-instance-group --size=1 --zone=us-central1-a
-
-> Recreate
-- gcloud compute instance-groups managed recreate-instances managed-instance-group --instances=managed-instance-group-85fb --zone us-central1-a
-
 
 > Scaling
 - gcloud compute instance-groups managed set-autoscaling managed-instance-group --max-num-replicas=2 --zone us-central1-a
@@ -130,3 +125,21 @@
   - --cool-down-period(60s(default))
   - --scale-based-on-cpu --target-cpu-utilization scale-based-on-load-balancing --target-load-balancing-utilization
   - --min-num-replicas(on(default)/off/only-scale-out)
+
+    > Instances
+    
+        > Recreate
+        - gcloud compute instance-groups managed recreate-instances managed-instance-group --instances=managed-instance-group-85fb --zone us-central1-a
+        
+        > Update
+        - gcloud compute instance-groups managed update-instances managed-instance-group --instances=managed-instance-group-85fb --zone us-central1-a
+        
+          > Flags
+          - --minimal-action=none(default)/refresh/restart/replace
+          - --most-disruptive-allowed-action=none(default)/refresh/restart/replace
+ 
+    > Instance-Template
+
+        > Update
+        - gcloud compute instance-groups managed set-instance-template managed-instance-group --template=instance-template
+          
