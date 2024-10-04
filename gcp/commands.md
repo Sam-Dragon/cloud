@@ -117,7 +117,7 @@
 - gcloud compute instance-groups managed set-autoscaling managed-instance-group --max-num-replicas=2 --zone us-central1-a
 - gcloud compute instance-groups managed stop-autoscaling managed-instance-group --zone us-central1-a
 
-      > Flags
-      - --cool-down-period(60s(default))
-      - --scale-based-on-cpu --target-cpu-utilization scale-based-on-load-balancing --target-load-balancing-utilization
-      - --min-num-replicas(on(default)/off/only-scale-out)
+  > Flags
+  - --cool-down-period(60s(default))
+  - --scale-based-on-cpu --target-cpu-utilization scale-based-on-load-balancing --target-load-balancing-utilization
+  - --min-num-replicas(on(default)/off/only-scale-out)
