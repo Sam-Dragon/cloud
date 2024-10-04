@@ -128,18 +128,18 @@
 
 > Instances
 
-    > Recreate
-    - gcloud compute instance-groups managed recreate-instances managed-instance-group --instances=managed-instance-group-85fb --zone us-central1-a
-    
-    > Update
-    - gcloud compute instance-groups managed update-instances managed-instance-group --instances=managed-instance-group-85fb --zone us-central1-a
-    
-      > Flags
-      - --minimal-action=none(default)/refresh/restart/replace
-      - --most-disruptive-allowed-action=none(default)/refresh/restart/replace
+> Recreate
+- gcloud compute instance-groups managed recreate-instances managed-instance-group --instances=managed-instance-group-85fb --zone us-central1-a
+
+> Update
+- gcloud compute instance-groups managed update-instances managed-instance-group --instances=managed-instance-group-85fb --zone us-central1-a
+
+  > Flags
+  - --minimal-action=none(default)/refresh/restart/replace
+  - --most-disruptive-allowed-action=none(default)/refresh/restart/replace
 
 > Instance-Template
 
-    > Update
-    - gcloud compute instance-groups managed set-instance-template managed-instance-group --template=instance-template
-      
+> Update
+- gcloud compute instance-groups managed set-instance-template managed-instance-group --template=instance-template
+  
