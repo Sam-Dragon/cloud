@@ -226,15 +226,17 @@ Note: They are billable even if you dont use it
 - Basic Terminologies
   - IAAS (Infrastructure As A Service)
     - Only infra [vitualiztion + hardware + networking] will be given, rest all needs to be configured
-    - Example: 
+    - Example: Google Compute Engine [GCE]
   - PAAS (Platform As A Service)
     - Only platform [OS + Application Runtime + vitualiztion + hardware + networking] will be given, rest all needs to be configured
     - Example: Google App Engine
     - Varieties  
       - FAAS (Function As A Service): Functions needs to be defined. thats it
+        - Google Cloud Functions [GCF]  
       - CAAS (Container As A Service): Containers needs to be specified. thats it
+        - Google Kubernetes Engine [GKE], Google App Engine
       - Databases [SQL + NoSQL]: Google Cloud SQL, Amazon RDS, Azure SQL  etc..
   - Serverless
     - Worry about application, forget about infra, scaling, healing 
     - Pay for requests not for servers
-    - Example: lamdas in AWS, functions in azure and google cloud & google app engine in GCP
+    - Example: lamdas in AWS, azure functions in azure and google functions in google cloud & Google App Engine 
