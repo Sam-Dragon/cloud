@@ -26,3 +26,15 @@
   - Makes use of compute engine VM's
   - Supports any runtime
   - Provides access to local disks and background process
+
+> Application Component Hierarchy
+- Application
+  - One application per project
+- Service
+  - Create micro services or app components
+  - Each service can have different settings
+- Version
+  - Each version associate with code and configuration
+  - Each version can run in one or more instances
+  - Multiple versions can co-exist
+  - Options to rollback and split traffic
