@@ -25,6 +25,7 @@
 Ex. war zone, no-parking zone
 
 # Compute Engine
+- It is IAAS
 - Provision and manage Virtual machines (VM's) [Virtual machines - virtual servers in GCP]
 - Create & manage lifecycle of VM's
 - Load balancing & auto scaling for multiple VM's
