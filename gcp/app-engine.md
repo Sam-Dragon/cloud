@@ -41,3 +41,7 @@
   - Multiple versions can co-exist
   - Options to rollback and split traffic
  
+> Scaling Instances
+- Automatic: Recommended for continuesly running workloads
+- Basic: Recommended for Adhoc workloads
+- Manual: User control
