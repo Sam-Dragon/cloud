@@ -188,3 +188,4 @@ Note: They are billable even if you dont use it
   - Internal: load balancers which communicate between VM's internal to network
   - External: load balancers which communicate between Internet & VM
  
+  # Components
