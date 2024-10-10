@@ -163,3 +163,15 @@
           
         > Canary Version
         gcloud compute instance-groups managed rolling-action start-update managed-instance-group --version=template=v1-template --canary-version=template=v2-template, target-size=10%
+
+# Cloud Loadbalancing
+- distributes the traffic accross the application instances in single region or multiple zones
+- fully distributed, software defined managed service
+- Features
+    - Health Checks - Route to healthy instances [Recover from failures]
+    - Auto Scaling
+    - Global load balancing with single anycast ip [supports internal load balancing]
+- It provides 'High availability'
+- It enables 'Auto Scaling'
+- It provides 'Resiliency'
+
