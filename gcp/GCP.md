@@ -193,7 +193,9 @@ Note: They are billable even if you dont use it
   - External: load balancers which communicate between Internet & VM
     - For HTTP(S), we will used External HTTP(S) Load Balancer (Global or Regional)
     - For TCP, if SSL offload, we will use SSL Proxy Load Balancer else TCP Proxy LB if not External Network LB
-    - For UPD/ESP or ICMP, if SSL offload, we will use External Network LB
+    - For UDP/ESP or ICMP, if SSL offload, we will use External Network LB
+
+    Note: All balancer types uses Proxy way only external tcp/udp uses pass-though way
     
 > Components
 
