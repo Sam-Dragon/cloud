@@ -224,7 +224,13 @@ Note: They are billable even if you dont use it
 # Managed Services
 - Basic Terminologies
   - IAAS (Infrastructure As A Service)
+    - Only infra [vitualiztion + hardware + networking] will be given, rest all needs to be configured
+    - Example: 
   - PAAS (Platform As A Service)
-  - FAAS (Function As A Service)
-  - CAAS (Container As A Service)
+    - Only platform [OS + Application Runtime + vitualiztion + hardware + networking] will be given, rest all needs to be configured
+    - Example: Google App Engine
+    - Varities  
+      - FAAS (Function As A Service): Functions needs to be defined. thats it
+      - CAAS (Container As A Service): Containers needs to be specified. thats it
+      - Databases [SQL + NoSQL]: Google Cloud SQL, Amazon RDS, Azure SQL  etc..
   - Serverless
