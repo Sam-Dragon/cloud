@@ -195,3 +195,11 @@ Note: They are billable even if you dont use it
 
   > frontend
     - It serves the client requests.It specifies 'ip address, port & protocol'
+    - For ssl, certificate must be assigned 
+
+  > Host & Path Rules
+    - Defines rules to redirect the traffic to different backends
+    - It can either redirect request to path or host or by headers
+
+> Load balancing - SSL/TLS Termination/offloading
+  - 
