@@ -212,4 +212,11 @@ Note: They are billable even if you dont use it
 
 > Load balancing - SSL/TLS Termination/offloading
 - Client to Load Balancer Over Internet: **HTTPS/TLS** required
-- Load Balancer to VM Servers : **HTTP/HTTPS/TCP** required 
+- Load Balancer to VM Servers : **HTTP/HTTPS/TCP** required
+
+> Scenarios
+- healthy instances to recieve traffic
+- high availability
+- route request to mutiple mircoservices
+- external HTTPS traffic
+- ssl termination for NON-HTTPS
