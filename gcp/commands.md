@@ -164,27 +164,3 @@
         > Canary Version
         gcloud compute instance-groups managed rolling-action start-update managed-instance-group --version=template=v1-template --canary-version=template=v2-template, target-size=10%
 
-# Cloud Loadbalancing
-- distributes the traffic accross the application instances in single region or multiple zones
-- fully distributed, software defined managed service
-- Features
-    - Health Checks - Route to healthy instances [Recover from failures]
-    - Auto Scaling
-    - Global load balancing with single anycast ip [supports internal load balancing]
-- It provides 'High availability'
-- It enables 'Auto Scaling'
-- It provides 'Resiliency'
-
-> Protocols
-- It is standard of distributing of data over the network
-- Network Layer[L3]: It transfer bits and bytes [0, 1]. It is Unreliable
-    - IP  
-- Transport Layer[L4]: It ensures the bits and bytes are transferred properly\
-    - TCP [Transmission Control]: Transfer bytes in order. Reliability > Perfromance
-    - TLS [Transport Layer Security]: Secured TCP
-    - UDP [User Datagram Protocol]: Alternate to TCP. Performance > Reliability 
-- Application Layer[L7]: We host our applications
-    - HTTP[Hyper Text Transfer Protocol]: Stateless Request/Response Cycle
-    - HTTPS[Hyper Text Transfer Protocol Secured]: Secure HTTP with certificates
-    - SMTP[Simple Mail Transfer Protocol]: For mailing purposes
-    - FTP [File Transfer Protocol]: For files 
