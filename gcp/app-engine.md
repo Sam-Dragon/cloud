@@ -22,7 +22,7 @@
   - v2: new one which supports runtimes such java, python, php,go
     - full network access & no language restrictions
 - Flexible
-  - Applications instances runs with docker containers 
+  - Applications instances runs with **docker containers** 
   - Makes use of compute engine VM's
-  - supports any runtime
-  - provides access to local disks and background process
+  - Supports any runtime
+  - Provides access to local disks and background process
