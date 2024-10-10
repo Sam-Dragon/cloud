@@ -187,5 +187,11 @@ Note: They are billable even if you dont use it
 - They are of two types
   - Internal: load balancers which communicate between VM's internal to network
   - External: load balancers which communicate between Internet & VM
- 
-  # Components
+    
+> Components
+
+  > backend
+    - group of endpoints recieves the traffice from google cloud load balancer [Ex. Instance Groups]
+
+  > frontend
+    - It serves the client requests.It specifies 'ip address, port & protocol'
