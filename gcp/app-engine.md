@@ -12,3 +12,17 @@
 - Managed platform updates & app health monitoring
 - Automatic versioning
 - Traffic splitting
+
+> Environments
+- Standard
+  - Applications run in specific runtime sandboxes
+  - v1: older one which supports runtimes such java, python, php,go
+    - Has language restrictions on python and php
+    - limited network acess 
+  - v2: new one which supports runtimes such java, python, php,go
+    - full network access & no language restrictions
+- Flexible
+  - Applications instances runs with docker containers 
+  - Makes use of compute engine VM's
+  - supports any runtime
+  - provides access to local disks and background process
