@@ -236,3 +236,5 @@ Note: They are billable even if you dont use it
       - Databases [SQL + NoSQL]: Google Cloud SQL, Amazon RDS, Azure SQL  etc..
   - Serverless
     - Worry about application, forget about infra, scaling, healing 
+    - pay for request not for servers
+    - Example: lamdas in AWS, functions in azure and google cloud 
