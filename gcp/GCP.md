@@ -176,3 +176,15 @@ Note: They are billable even if you dont use it
     - HTTPS[Hyper Text Transfer Protocol Secured]: Secure HTTP with certificates
     - SMTP[Simple Mail Transfer Protocol]: For mailing purposes
     - FTP [File Transfer Protocol]: For files 
+
+> Creation
+- They are of two types
+  - Client-side: Client manges the traffic & load balancer is deployed on client side.
+    - It carries list of server names
+  - Server-side[Recommended]: Server manges the traffic & load balancer is deployed in front of server instances
+    - It is a middle component between server & application instances
+
+- They are of two types
+  - Internal: load balancers which communicate between VM's internal to network
+  - External: load balancers which communicate between Internet & VM
+ 
