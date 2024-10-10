@@ -220,3 +220,11 @@ Note: They are billable even if you dont use it
 - route request to mutiple mircoservices
 - external HTTPS traffic
 - ssl termination for NON-HTTPS
+
+# Managed Services
+- Basic Terminologies
+  - IAAS (Infrastructure As A Service)
+  - PAAS (Platform As A Service)
+  - FAAS (Function As A Service)
+  - CAAS (Container As A Service)
+  - Serverless
