@@ -153,8 +153,8 @@ Note: They are billable even if you dont use it
 - Frequent Scale up & Scale down
 
 # Cloud Loadbalancing
-- distributes the traffic accross the application instances in single region or multiple zones
-- fully distributed, software defined managed service
+- Distributes the traffic accross the application instances in single region or multiple zones
+- Fully distributed, software defined managed service
 - Features
     - Health Checks - Route to healthy instances [Recover from failures]
     - Auto Scaling
@@ -186,7 +186,14 @@ Note: They are billable even if you dont use it
 
 - They are of two types
   - Internal: load balancers which communicate between VM's internal to network
+    - They can be used for TCP, UDP or HTTP(s) traffic
+    - For TCP/UDP, we will use Internal TCP/UDP Load Balancer
+    - For HTTP(S), we will use Internal HTTP(S) Load Balancer
+      
   - External: load balancers which communicate between Internet & VM
+    - For HTTP(S), we will used External HTTP(S) Load Balancer (Global or Regional)
+    - For TCP, if SSL offload, we will use SSL Proxy Load Balancer else TCP Proxy LB if not External Network LB
+    - For UPD/ESP or ICMP, if SSL offload, we will use External Network LB
     
 > Components
 
