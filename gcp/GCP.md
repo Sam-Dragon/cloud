@@ -191,15 +191,16 @@ Note: They are billable even if you dont use it
 > Components
 
   > backend
-    - group of endpoints recieves the traffice from google cloud load balancer [Ex. Instance Groups]
+  - group of endpoints recieves the traffice from google cloud load balancer [Ex. Instance Groups]
 
   > frontend
-    - It serves the client requests.It specifies 'ip address, port & protocol'
-    - For ssl, certificate must be assigned 
+  - It serves the client requests.It specifies 'ip address, port & protocol'
+  - For ssl, certificate must be assigned 
 
   > Host & Path Rules
   - Defines rules to redirect the traffic to different backends
   - It can either redirect request to path or host or by headers
 
 > Load balancing - SSL/TLS Termination/offloading
-  - 
+- Client to Load Balancer Over Internet: **HTTPS/TLS** required
+- Load Balancer to VM Servers : **HTTP/HTTPS/TCP** required 
