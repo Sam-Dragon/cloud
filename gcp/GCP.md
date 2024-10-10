@@ -234,9 +234,9 @@ Note: They are billable even if you dont use it
       - FAAS (Function As A Service): Functions needs to be defined. thats it
         - Google Cloud Functions [GCF]  
       - CAAS (Container As A Service): Containers needs to be specified. thats it
-        - Google Kubernetes Engine [GKE], Google App Engine
+        - Google Kubernetes Engine [GKE], Google App Engine, Cloud Run
       - Databases [SQL + NoSQL]: Google Cloud SQL, Amazon RDS, Azure SQL  etc..
   - Serverless
     - Worry about application, forget about infra, scaling, healing 
     - Pay for requests not for servers
-    - Example: lamdas in AWS, azure functions in azure and google functions in google cloud & Google App Engine 
+    - Example: lamdas in AWS, azure functions in azure and google functions in google cloud, Google App Engine, Cloud Run 
