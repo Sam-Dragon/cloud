@@ -14,7 +14,7 @@
 - Traffic splitting
 
 > Environments
-- Standard
+- Standard [REcommended]
   - Applications run in specific runtime sandboxes
   - v1: older one which supports runtimes such java, python, php,go
     - Has language restrictions on python and php
@@ -26,6 +26,8 @@
   - Makes use of compute engine VM's
   - Supports any runtime
   - Provides access to local disks and background process
+
+**Note**: App comparision to pick environment in video.88
 
 > Application Component Hierarchy
 - Application
