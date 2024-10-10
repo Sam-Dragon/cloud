@@ -237,4 +237,4 @@ Note: They are billable even if you dont use it
   - Serverless
     - Worry about application, forget about infra, scaling, healing 
     - Pay for requests not for servers
-    - Example: lamdas in AWS, functions in azure and google cloud 
+    - Example: lamdas in AWS, functions in azure and google cloud & google app engine in GCP
