@@ -182,10 +182,11 @@ Deploy the python application after importing
 - gcloud app deploy --version=v2
 - gcloud app deploy --version=v3 --no-promote
 
+> Split traffic between version [Canary Deployment]
+*- gcloud app services set-traffic --splits=v3=.5,v2=.5 --split-by=random
 - gcloud app services set-traffic split=v3=.5,v2=.5
 - gcloud app services set-traffic splits=v3=.5,v2=.5
 - watch curl https://melodic-furnace-304906.uc.r.appspot.com/
-- gcloud app services set-traffic --splits=v3=.5,v2=.5 --split-by=random
    
 - cd ../my-first-service/
 - gcloud app deploy
