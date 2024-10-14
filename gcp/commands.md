@@ -172,30 +172,26 @@ Deploy the python application after importing
 > List the services, versions & instnaces
 - gcloud app services list
 - gcloud app versions list
+- gcloud app versions list --hide-no-traffic
 - gcloud app instances list
 
 > View the data based on versions 
 - gcloud app browse
-- gcloud app browse --version v3
+- gcloud app browse --version=<VERSION>
+- gcloud app browse --service=<SERVICE>
 
 > To deploy any version on server
-- gcloud app deploy --version=v2
-- gcloud app deploy --version=v3 --no-promote
+- gcloud app deploy --version=<VERSION>
+
+> To deploy with version 7 decide to recieve traffic
+- gcloud app deploy --version=<VERSION> --no-promote
+- gcloud app deploy --version=<VERSION> --promote
 
 > Split traffic between version [Canary Deployment]
-*- gcloud app services set-traffic --splits=v3=.5,v2=.5 --split-by=random
+- gcloud app services set-traffic --splits=v3=.5,v2=.5 --split-by=random
 - gcloud app services set-traffic split=v3=.5,v2=.5
 - gcloud app services set-traffic splits=v3=.5,v2=.5
 - watch curl https://melodic-furnace-304906.uc.r.appspot.com/
    
-- cd ../my-first-service/
-- gcloud app deploy
-- gcloud app browse --service=my-first-service
-   
-- gcloud app services list
-- gcloud app regions list
-  
-- gcloud app browse --service=my-first-service --version=20210215t075851
-- gcloud app browse --version=v2
 - gcloud app open-console --version=v2
-- gcloud app versions list --hide-no-traffic
+
