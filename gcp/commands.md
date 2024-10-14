@@ -168,16 +168,19 @@
 Deploy the python application after importing 
 - gcloud app deploy
 
-- gcloud app deploy
+> List the services, versions & instnaces
 - gcloud app services list
 - gcloud app versions list
 - gcloud app instances list
-- gcloud app deploy --version=v2
-- gcloud app versions list
+
+> View the data based on versions 
 - gcloud app browse
-- gcloud app browse --version 20210215t072907
-- gcloud app deploy --version=v3 --no-promote
 - gcloud app browse --version v3
+
+> To deploy any version on server
+- gcloud app deploy --version=v2
+- gcloud app deploy --version=v3 --no-promote
+
 - gcloud app services set-traffic split=v3=.5,v2=.5
 - gcloud app services set-traffic splits=v3=.5,v2=.5
 - watch curl https://melodic-furnace-304906.uc.r.appspot.com/
