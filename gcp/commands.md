@@ -182,14 +182,14 @@ Deploy the python application after importing
 - gcloud app services set-traffic splits=v3=.5,v2=.5
 - watch curl https://melodic-furnace-304906.uc.r.appspot.com/
 - gcloud app services set-traffic --splits=v3=.5,v2=.5 --split-by=random
--  
+   
 - cd ../my-first-service/
 - gcloud app deploy
 - gcloud app browse --service=my-first-service
--  
+   
 - gcloud app services list
 - gcloud app regions list
--  
+  
 - gcloud app browse --service=my-first-service --version=20210215t075851
 - gcloud app browse --version=v2
 - gcloud app open-console --version=v2
