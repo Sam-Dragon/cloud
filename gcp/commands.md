@@ -166,6 +166,7 @@
 
 # App Engine
 Deploy the python application after importing 
+- gcloud app deploy --version=<VERSION>
 - gcloud app deploy
 
 > List the services, versions & instnaces
