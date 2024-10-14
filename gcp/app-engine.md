@@ -6,6 +6,7 @@
 - It is the simplest way to deploy & scale applications in GCP
 - It provides end-to-end application deployment
 - It supports all runtimes such as Java, Go, Ruby, Python etc..
+- One app engine per region
 
 > Features
 - Auto Scaling & automatic Load balancing
@@ -42,6 +43,6 @@
   - Options to rollback and split traffic
  
 > Scaling Instances
-- Automatic: Recommended for continuesly running workloads
+- Automatic: Recommended for continuously running workloads
 - Basic: Recommended for Adhoc workloads
 - Manual: User control
