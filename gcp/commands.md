@@ -176,15 +176,15 @@ Deploy the python application after importing
 
 > View the data based on versions 
 - gcloud app browse
-- gcloud app browse --version=<VERSION>
-- gcloud app browse --service=<SERVICE>
+- gcloud app browse --version=[VERSION]
+- gcloud app browse --service=[SERVICE]
 
 > To deploy any version on server
 - gcloud app deploy --version=<VERSION>
 
 > To deploy with version 7 decide to recieve traffic
-- gcloud app deploy --version=<VERSION> --no-promote
-- gcloud app deploy --version=<VERSION> --promote
+- gcloud app deploy --version=[VERSION] --no-promote
+- gcloud app deploy --version=[VERSION] --promote
 
 > Split traffic between version [Canary Deployment]
 - gcloud app services set-traffic --splits=v3=.5,v2=.5 --split-by=random
