@@ -164,3 +164,6 @@
         > Canary Version
         gcloud compute instance-groups managed rolling-action start-update managed-instance-group --version=template=v1-template --canary-version=template=v2-template, target-size=10%
 
+# App Engine
+Deploy the python application after importing 
+- gcloud app deploy
