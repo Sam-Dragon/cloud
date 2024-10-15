@@ -58,10 +58,22 @@
   - Configure dispatch.yml with routes
 
 - Routing with Cloud Load Balancing
-  - configure routes with load balancer 
+  - Configure routes with load balancer 
 
 > Deploy new version without downtime
 - Deploy the new version & shift traffic to new version using [--promote]
 - Deploy the only new version but dont traffic [--no-promote]
 - Deploy the new version but shift only small traffic using canary style [--splits=v2=.9,v1=.1]
 - Deploy the new version but shift gradually [--migrate]
+
+> Splitting Traffic ways
+- It is used in connjuntion with set-traffic with '**--split-by**' flag
+
+- IP Splitting [Less Recommended]
+  - Based on IP address
+
+- Cooking Splitting [Highly Recommended]
+  - Based on Cookie [GOOGAPPUUID]
+
+- Random [Highly Recommended]
+  - Does it randomly 
