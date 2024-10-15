@@ -15,6 +15,13 @@
   
 # Cloud Run
 - It belongs to 2 gen of cloud function
-- 'container to production in seconds'
-- build on top of open standard - **knative**
-- fully managed serverless platform for **containerized** applications 
+- 'Container to production in seconds'
+- Built on top of open standard - **knative**
+- Fully managed serverless platform for **containerized** applications 
+- Fully integrated end-to-end developer experience
+  - No limitations on languages, binaries & dependencies
+  - Easily portable because of container based architecture
+
+> Cloud Run for Anthos
+- Anthos: Run kubernetes clusters anywhere. i.e cloud, multi cloud & on-premise
+- Deploy your workloads to anthos clusters running either on premise or google cloud
