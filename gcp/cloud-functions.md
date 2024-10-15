@@ -14,6 +14,7 @@
 - Trigger: decides function to trigger based on event
   
 # Cloud Run
+- It is CAAS or serverless 
 - It belongs to 2 gen of cloud function
 - 'Container to production in seconds'
 - Built on top of open standard - **knative**
