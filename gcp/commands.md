@@ -183,8 +183,8 @@ Deploy the python application after importing
 > To deploy any version on server
 - gcloud app deploy --version=<VERSION>
 
-> To deploy with version 7 decide to recieve traffic
-- gcloud app deploy --version=[VERSION] --no-promote
+> To deploy with version & decide to recieve traffic
+- gcloud app deploy --version=[VERSION] **--no-promote**
 - gcloud app deploy --version=[VERSION] --promote
 
 > Split traffic between version [Canary Deployment]
