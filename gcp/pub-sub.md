@@ -14,3 +14,5 @@
 
 > Push model
 - push the messages to web hook endpoint registered using HTTPS post request
+
+# Snapshot
