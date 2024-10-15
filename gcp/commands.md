@@ -180,7 +180,7 @@ Deploy the python application after importing
 - gcloud app browse --service=[SERVICE]
 
 > To deploy any version on server, default flag --promote already is applied
-- gcloud app deploy --version=<VERSION> (OR) gcloud app deploy --version=[VERSION] --promote
+- gcloud app deploy --version=[VERSION] (OR) gcloud app deploy --version=[VERSION] --promote
 
 > To deploy with version & decide to navigate traffic
 - gcloud app deploy --version=[VERSION] **--no-promote**
