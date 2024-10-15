@@ -15,7 +15,6 @@
   
 # Cloud Run
 - It is CAAS or serverless 
-- It belongs to 2 gen of cloud function
 - 'Container to production in seconds'
 - Built on top of open standard - **knative**
 - Fully managed serverless platform for **containerized** applications 
@@ -26,3 +25,10 @@
 > Cloud Run for Anthos
 - Anthos: Run kubernetes clusters anywhere. i.e cloud, multi cloud & on-premise
 - Deploy your workloads to anthos clusters running either on premise or google cloud
+
+# Cloud Functions - 2nd generation
+- **Longer Request Timeout**: upto 60 mins [1st gen has only 9mins]
+- **Large Instances Size**: upto 16GB ram and 4vCPU [1st has max 8GB ram & 2 vCPU]
+- **Concurrency**: upto 1000 concurrent requests per function instance [v1: only 1 request per instance]
+- **Multiple Function Revisions** and **Traffic Splitting** supported [v1 not supported]
+- Support **90+** event types - enabled by Eventarc [v1 has only **7** event types]
