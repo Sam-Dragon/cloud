@@ -46,3 +46,10 @@
 - Automatic: Recommended for continuously running workloads
 - Basic: Recommended for Adhoc workloads
 - Manual: User control
+
+> Request Routing
+- Routing by URL
+- Syntax
+  - https://PROJECT_ID.REGION_ID.r.appspot.com (default service)
+  - https://SERVICE-dot-PROJECT_ID.REGION_ID.r.appspot.com (specific service)
+  - https://VERSION-dot-SERVICE-dot-PROJECT_ID.REGION_ID.r.appspot.com (specific version of service)
