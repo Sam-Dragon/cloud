@@ -53,3 +53,9 @@
   - https://PROJECT_ID.REGION_ID.r.appspot.com (default service)
   - https://SERVICE-dot-PROJECT_ID.REGION_ID.r.appspot.com (specific service)
   - https://VERSION-dot-SERVICE-dot-PROJECT_ID.REGION_ID.r.appspot.com (specific version of service)
+
+- Routing with Dispatch File
+  - Configure dispatch.yml with routes
+
+- Routing with Cloud Load Balancing
+  - configure routes with load balancer 
