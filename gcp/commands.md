@@ -224,3 +224,6 @@
 - gcloud app versions delete --service=SERVICE-NAME
 - gcloud app versions migrate VERSION-NAME --service=SERVICE-NAME
 - gcloud app version start/stop [VERSION] --service=SERVICE-NAME
+
+> Jobs
+- gcloud app deploy cron.yml
