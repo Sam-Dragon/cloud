@@ -59,3 +59,9 @@
 
 - Routing with Cloud Load Balancing
   - configure routes with load balancer 
+
+> Deploy new version without downtime
+- Deploy the new version & shift traffic to new version using [--promote]
+- Deploy the only new version but dont traffic [--no-promote]
+- Deploy the new version but shift only small traffic using canary style [--splits=v2=.9,v1=.1]
+- Deploy the new version but shift gradually [--migrate]
