@@ -77,3 +77,6 @@
 
 - Random [Highly Recommended]
   - Does it randomly 
+
+> Jobs
+- 
