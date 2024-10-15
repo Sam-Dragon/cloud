@@ -227,3 +227,6 @@
 
 > Jobs
 - gcloud app deploy cron.yml
+
+> Queue
+- gcloud app deploy queue.yml
