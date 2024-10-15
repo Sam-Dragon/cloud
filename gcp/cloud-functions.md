@@ -1,6 +1,6 @@
 # Cloud Functions
 
-- It is PAAS or serverless 
+- It is FAAS or serverless 
 - It is mainly used for run code based on events.
   - Events can be triggerd from cloud storage, cloud pub/sub, HTTP calls, firebase, cloud firestore, stack driver   logging
 - Dont care about Infrastructure
