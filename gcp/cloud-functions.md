@@ -15,4 +15,6 @@
   
 # Cloud Run
 - It belongs to 2 gen of cloud function
-- 
+- 'container to production in seconds'
+- build on top of open standard - **knative**
+- fully managed serverless platform for **containerized** applications 
