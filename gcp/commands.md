@@ -235,3 +235,21 @@
 - gcloud run deploy SERVICE_NAME --image [IMAGE URL] --revision-suffix=[VERSION]
 - gcloud run services update-traffic SERVICE_NAME --to-revisions=[VERSION_NUMBER=PERCENTAGE, VERSION_NUMBER=PERCENTAGE] 
 - gcloud run revisions list
+
+# Cloud Functions
+- gcloud function list
+- gcloud function deploy [NAME]
+  - --docker-registry: registry to store functions docker images [-container-registry[DEFAULT] or -artifact-registry]
+  - --docker-repository: repository to store functions docker images 
+  - --gen2 (use 2nd gen, if not mentioned it will use 1st gen)
+  - --runtime (nodejs, java, python etc..)
+  - --service-account (Service Account to use)
+    - 1st Gen [Default]: App Engine default service account. PROJECT_ID@appspot.gsserviceaccount.com
+    - 2nd Gen: Default compute service account. PROJECT_NO-compute@developer.gsserviceaccount.com
+  - --timeout
+  - --max-instances / -min-instances
+  - --source
+    - zip file from google cloud storage
+    - source repository [repository url]
+    - local file system
+  - --trigger-bucket (OR) --trigger-bucket (OR) --trigger-topic (OR) --trigger-event-filters [gen2] 
