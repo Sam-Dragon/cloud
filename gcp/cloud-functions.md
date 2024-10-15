@@ -27,7 +27,7 @@
 - Deploy your workloads to anthos clusters running either on premise or google cloud
 
 # Cloud Functions - 2nd generation
-- It uses 'cloud run services & revisions' internally for serverless execution which was not possible in 1st gen
+- It uses 'cloud run' internally for multiple revisons & traffic splitting
 - **Longer Request Timeout**: upto 60 mins [1st gen has only 9mins]
 - **Large Instances Size**: upto 16GB ram and 4vCPU [1st has max 8GB ram & 2 vCPU]
 - **Concurrency**: upto 1000 concurrent requests per function instance [v1: only 1 request per instance]
