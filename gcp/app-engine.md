@@ -7,6 +7,7 @@
 - It provides end-to-end application deployment
 - It supports all runtimes such as Java, Go, Ruby, Python etc..
 - It is regional based [Cannot be changed once created]
+- It is one per project
 - Scale downs to zero for standard-v2 version but not for flexible type
 - Use dynamic instances for cost sensitive
 
