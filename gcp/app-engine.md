@@ -79,4 +79,9 @@
   - Does it randomly 
 
 > Jobs
-- 
+- Schedule jobs on pre-defined interval
+- Configure cron.yml for jobs
+
+> Queue
+- Manages the task queues
+- Configure queue.yml for tasks
