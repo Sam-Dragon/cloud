@@ -32,3 +32,5 @@
 - **Concurrency**: upto 1000 concurrent requests per function instance [v1: only 1 request per instance]
 - **Multiple Function Revisions** and **Traffic Splitting** supported [v1 not supported]
 - Support **90+** event types - enabled by Eventarc [v1 has only **7** event types]
+
+- It uses 'cloud run' internally for serverless execution
