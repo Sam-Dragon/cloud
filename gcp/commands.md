@@ -233,5 +233,5 @@
 
 # Cloud Run
 - gcloud run deploy SERVICE_NAME --image [IMAGE URL] --revision-suffix=[VERSION]
-- gcloud run revisions list
 - gcloud run services update-traffic SERVICE_NAME --to-revisions=[VERSION_NUMBER=PERCENTAGE, VERSION_NUMBER=PERCENTAGE] 
+- gcloud run revisions list
