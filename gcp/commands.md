@@ -253,3 +253,31 @@
     - source repository [repository url]
     - local file system
   - --trigger-bucket (OR) --trigger-bucket (OR) --trigger-topic (OR) --trigger-event-filters [gen2] 
+
+# Pub/sub
+- gcloud config set project glowing-furnace-304608
+
+> Topics
+- gcloud pubsub topics create topic-from-gcloud
+- gcloud pubsub topics list
+- gcloud pubsub topics delete topic-from-gcloud
+
+> Create Subscriptions
+- gcloud pubsub subscriptions create subscription-gcloud-1 --topic=topic-from-gcloud
+- gcloud pubsub subscriptions create subscription-gcloud-2 --topic=topic-from-gcloud
+
+> Read messages from subscribers
+- gcloud pubsub subscriptions pull subscription-gcloud-2
+- gcloud pubsub subscriptions pull subscription-gcloud-1
+
+> Publish Message to Topic by Publisher
+- gcloud pubsub topics publish topic-from-gcloud --message="My First Message"
+- gcloud pubsub topics publish topic-from-gcloud --message="My Second Message"
+- gcloud pubsub topics publish topic-from-gcloud --message="My Third Message"
+
+> Read message & acknowledge
+- gcloud pubsub subscriptions pull subscription-gcloud-1 --auto-ack
+- gcloud pubsub subscriptions pull subscription-gcloud-2 --auto-ack
+
+> Read all subscribers of topic
+- gcloud pubsub topics list-subscriptions my-first-topic
