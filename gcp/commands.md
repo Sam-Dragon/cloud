@@ -166,24 +166,25 @@
 
 # App Engine
 Deploy the python application after importing 
-- gcloud app deploy --version [VERSION]
+- gcloud app deploy --version [VERSION] (OR) gcloud app deploy --version=[VERSION] --promote
 - gcloud app deploy (OR) gcloud app deploy **dispatch.yml**
+- gcloud app deploy --image-url=[DOCKER-IMAGE]
+- gcloud app deploy --stop-previous-version
+
+> To deploy with version & decide to navigate traffic
+- gcloud app deploy --version=[VERSION] **--no-promote**
 
 > List the services, versions & instnaces
 - gcloud app services list
 - gcloud app versions list --hide-no-traffic
 - gcloud app instances list
+- gcloud app regions list
+- gcloud app zones list
 
 > View the data based on versions 
 - gcloud app browse
 - gcloud app browse --version=[VERSION]
 - gcloud app browse --service=[SERVICE]
-
-> To deploy any version on server, default flag --promote already is applied
-- gcloud app deploy --version=[VERSION] (OR) gcloud app deploy --version=[VERSION] --promote
-
-> To deploy with version & decide to navigate traffic
-- gcloud app deploy --version=[VERSION] **--no-promote**
 
 > Split traffic between version [Canary Deployment]
 - gcloud app services set-traffic --splits=v3=.5,v2=.5 --split-by=random
@@ -191,6 +192,9 @@ Deploy the python application after importing
 - gcloud app services set-traffic splits=v3=.5,v2=.5
 - watch curl https://melodic-furnace-304906.uc.r.appspot.com/
 
-> Console
+> Display url to console  
 - gcloud app open-console --version=v2
 
+> Debugging
+- gcloud app open-console --logs
+- gcloud app logs --tail
