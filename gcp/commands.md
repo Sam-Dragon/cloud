@@ -208,3 +208,19 @@
 - gcloud app instances delete INSTANCE --service=[SERVICE-NAME] --version=[VERSION-NAME]
 - gcloud app instances scp INSTANCE --service=[SERVICE-NAME] --version=[VERSION-NAME] --recurse local_dir INSTANCE:remote_dir
 - gcloud app instances ssh INSTANCE --service=[SERVICE-NAME] --version=[VERSION-NAME]
+
+> Services
+- gcloud app services list
+- gcloud app services browse SERVICE-NAME --version=[VERSION]
+- gcloud app services describe SERVICE-NAME
+- gcloud app services delete SERVICE-NAME
+- gcloud app services set-traffic SERVICE-NAME --splits=[VERSION_NUMBER=PERCENTAGE, VERSION_NUMBER=PERCENTAGE] --split-by=[IP/COOKIE,RANDOM]
+
+> Versions
+- gcloud app versions list
+  - --hide-no-traffic 
+- gcloud app versions browse --service=SERVICE-NAME --version=[VERSION]
+- gcloud app versions describe --service=SERVICE-NAME
+- gcloud app versions delete --service=SERVICE-NAME
+- gcloud app versions migrate VERSION-NAME --service=SERVICE-NAME
+- gcloud app version start/stop [VERSION] --service=SERVICE-NAME
