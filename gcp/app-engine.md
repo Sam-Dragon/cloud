@@ -67,7 +67,7 @@
 - Deploy the new version but shift gradually [--migrate]
 
 > Splitting Traffic ways
-- It is used in connjuntion with set-traffic with '**--split-by**' flag
+- It is used in conjuntion with set-traffic with '**--split-by**' flag
 
 - IP Splitting [Less Recommended]
   - Based on IP address
