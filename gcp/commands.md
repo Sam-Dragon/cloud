@@ -202,4 +202,9 @@
 - gcloud app open-console --logs
 - gcloud app logs --tail
 
-> 
+> Instances
+- gcloud app instances list
+- gcloud app instances describe INSTANCE --service=[SERVICE-NAME] --version=[VERSION-NAME]
+- gcloud app instances delete INSTANCE --service=[SERVICE-NAME] --version=[VERSION-NAME]
+- gcloud app instances scp INSTANCE --service=[SERVICE-NAME] --version=[VERSION-NAME] --recurse local_dir INSTANCE:remote_dir
+- gcloud app instances ssh INSTANCE --service=[SERVICE-NAME] --version=[VERSION-NAME]
