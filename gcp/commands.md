@@ -280,4 +280,4 @@
 - gcloud pubsub subscriptions pull subscription-gcloud-2 --auto-ack
 
 > Read all subscribers of topic
-- gcloud pubsub topics list-subscriptions my-first-topic
+- gcloud pubsub topics list-subscriptions topic-from-gcloud
