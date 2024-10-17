@@ -13,3 +13,13 @@
 - '**Cloud Agent**' fetches additional metrics disk, CPU, Network, Process Metrics of VM & sends to cloud monitoring
 
 # Logging
+- Real time log management and analysis tool
+- It can perform operations such as sorting, searching, filtering, analyzing, alerting etc..
+- exabyte scale, fully managed service [No server provisioning, patching etc.]
+- Ingest log data from any source
+
+> Features  
+- Logs Explorer: search, sort & analyze logs using flexible queries
+- Logs Dashboard: rich visualizations
+- Logs Metrics: capture metrics from logs (Using queries/matching strings)
+- **Logs Router**: Route different entries to different destinations
