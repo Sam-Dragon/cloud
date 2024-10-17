@@ -11,3 +11,5 @@
 > Monitoring for VM
 - Default - CPU, Disk Traffic, Network Traffic, Uptime information
 - '**Cloud Agent**' fetches additional metrics disk, CPU, Network, Process Metrics of VM & sends to cloud monitoring
+
+# Logging
