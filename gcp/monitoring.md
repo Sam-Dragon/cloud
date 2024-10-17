@@ -6,3 +6,4 @@
 
 > Workspace
 - They are used to organize monitoring information for projects
+- We can add GCP projects or AWS accounts
