@@ -23,3 +23,11 @@
 - Logs Dashboard: rich visualizations
 - Logs Metrics: capture metrics from logs (Using queries/matching strings)
 - **Logs Router**: Route different entries to different destinations
+
+> Log Data Collection
+- Automatically happens from App Engine, GKS, GCE
+- Ingest logs for GCE VM's
+  - Install & Run '**Logging Agent**' on all the VM's
+- Ingest logs for on-premises
+  - Install BindPlane tool from Blue Medora
+  - Use cloud logging api   
