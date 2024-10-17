@@ -31,3 +31,11 @@
 - Ingest logs for on-premises
   - Install BindPlane tool from Blue Medora
   - Use cloud logging api   
+
+> Audit & Security Logs
+- Access Transparency Logs: captures action performed by GCP team on content [Only for organizations above gold level]
+- Cloud Audit Logs:
+  - Admin Activity Logs
+  - Data Access Logs
+  - System Event Audit Logs
+  - Policy Denied Audit Logs  
