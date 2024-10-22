@@ -290,12 +290,11 @@
 
 > Connect to specific cluster 
 - gcloud container clusters get-credentials [CLUSTER] --zone [ZONE] --project [PROJECT_ID]
-
-> Scale Cluster
-> Manual way
+  
+> Scale Custer - Manual way
 - gcloud container clusters resize my-cluster [CLUSTER] --node-pool [NODE-POOL-NAME] --num-nodes [COUNT]
 
-> Autoscale way
+> Scale Custer - Autoscale way
 - gcloud container cluster update [CLUSTER] --enable-autoscaling --min-nodes=10 --max-nodes=10 
 
 > Delete the cluster
