@@ -292,12 +292,11 @@
 - gcloud container clusters get-credentials [CLUSTER] --zone [ZONE] --project [PROJECT_ID]
 
 > Scale Cluster
+> Manual way
+- gcloud container clusters resize my-cluster [CLUSTER] --node-pool [NODE-POOL-NAME] --num-nodes [COUNT]
 
-    > Manual way
-    - gcloud container clusters resize my-cluster [CLUSTER] --node-pool [NODE-POOL-NAME] --num-nodes [COUNT]
-    
-    > Autoscale way
-    - gcloud container cluster update [CLUSTER] --enable-autoscaling --min-nodes=10 --max-nodes=10 
+> Autoscale way
+- gcloud container cluster update [CLUSTER] --enable-autoscaling --min-nodes=10 --max-nodes=10 
 
 > Delete the cluster
 - gcloud container clusters delete my-cluster [CLUSTER] --zone [ZONE] --project [PROJECT_ID]
