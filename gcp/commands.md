@@ -291,11 +291,15 @@
 > Connect to specific cluster 
 - gcloud container clusters get-credentials [CLUSTER] --zone [ZONE] --project [PROJECT_ID]
 
-> Increase the number of nodes in a cluster [Rule: number of pods = number of nodes]
-- gcloud container clusters resize my-cluster [CLUSTER] --node-pool [NODE-POOL-NAME] --num-nodes [COUNT]
+> Scale Cluster
+
+    > Manual way
+    - gcloud container clusters resize my-cluster [CLUSTER] --node-pool [NODE-POOL-NAME] --num-nodes [COUNT]
+    
+    > Autoscale way
+    - gcloud container cluster update [CLUSTER] --enable-autoscaling --min-nodes=10 --max-nodes=10 
 
 > Delete the cluster
 - gcloud container clusters delete my-cluster [CLUSTER] --zone [ZONE] --project [PROJECT_ID]
-
 
 ** Note: All the kubernetes commands, refer kubernetes project
