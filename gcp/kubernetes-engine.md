@@ -14,3 +14,7 @@
 > Advantages of Autopilot 
 - reduce the operational cluster
 - hadsoff-experience
+
+# Best Practices
+- Number of pods must be equal to number of nodes
+- Use 'Auto scaling' to manual adjust number of pods vs nodes
