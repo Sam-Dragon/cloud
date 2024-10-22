@@ -283,3 +283,5 @@
 - gcloud pubsub topics list-subscriptions topic-from-gcloud
 
 # Kubernetes Engine
+- gcloud config set project [PROJECT_ID]
+- gcloud container clusters create [CLUSTER_NAME] --zone [ZONE] --project [PROJECT_ID] 
