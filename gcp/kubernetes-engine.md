@@ -20,8 +20,8 @@
   - Single Zonal Cluster: single control plane. Nodes running in same zone
   - Multi Zonal Cluster: single control plane. Nodes running in multiple zones
 - Regional Cluster: Replicas of control plane runs in multiple zones of given region. Nodes runs in same place where control                     plane runs
-- Private Cluster
-- Alpha Cluster
+- Private Cluster: VPC native cluster. Nodes only have internal ip address
+- Alpha Cluster: Cluster with alpha api, new k8s features can be tested here
 
 # Best Practices
 - Number of pods must be equal to number of nodes
