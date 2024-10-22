@@ -97,7 +97,7 @@
 - gcloud compute instance-groups managed list
 
 > Create
-- gcloud compute instance-groups managed create managed-instance-group --zone=us-central1-a  --template=projects/<PROJECT_ID>/regions/<REGION>/instanceTemplates/<INSTACE_TEMPLATE> --size=1
+- gcloud compute instance-groups managed create managed-instance-group --zone=us-central1-a  --template=projects/[PROJECT_ID>/regions/[REGION>/instanceTemplates/[INSTACE_TEMPLATE> --size=1
 
   > Flags
   - --health-check
@@ -284,6 +284,17 @@
 
 # Kubernetes Engine
 - gcloud config set project [PROJECT_ID]
-- gcloud container clusters create [CLUSTER_NAME] --zone [ZONE] --project [PROJECT_ID] 
 
-** All the kubernetes commands, refer kubernetes project
+> Create Cluster with zone, project, replicas etc..
+- gcloud container clusters create [CLUSTER_NAME] --zone [ZONE] --project [PROJECT_ID]
+
+> Connect to specific cluster 
+- gcloud container clusters get-credentials [CLUSTER] --zone [ZONE] --project [PROJECT_ID]
+
+> Increase the number of nodes in a cluster
+- gcloud container clusters resize my-cluster [CLUSTER] --node-pool [NODE-POOL-NAME] --num-nodes [COUNT]
+
+> Delete the cluster
+- gcloud container clusters delete my-cluster [CLUSTER] --zone [ZONE] --project [PROJECT_ID]
+
+** Note: All the kubernetes commands, refer kubernetes project
