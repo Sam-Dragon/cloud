@@ -292,12 +292,21 @@
 - gcloud container clusters get-credentials [CLUSTER] --zone [ZONE] --project [PROJECT_ID]
   
 > Scale Custer - Manual way
-- gcloud container clusters resize my-cluster [CLUSTER] --node-pool [NODE-POOL-NAME] --num-nodes [COUNT]
+- gcloud container clusters resize [CLUSTER] --node-pool [NODE-POOL-NAME] --num-nodes [COUNT]
 
 > Scale Custer - Autoscale way
 - gcloud container cluster update [CLUSTER] --enable-autoscaling --min-nodes=10 --max-nodes=10 
 
+> Set the Cluster
+- gcloud config set container/cluster [VALUE]
+
 > Delete the cluster
-- gcloud container clusters delete my-cluster [CLUSTER] --zone [ZONE] --project [PROJECT_ID]
+- gcloud container clusters delete [CLUSTER] --zone [ZONE] --project [PROJECT_ID]
+
+> Create Nodepools
+- gcloud container node-pools create [NODE_POOL] --cluster [CLUSTER]
+
+> Fetch Nodepools 
+- gcloud container node-pools list --zone=[ZONE] --cluster=[CLUSTER]
 
 ** Note: All the kubernetes commands, refer kubernetes project
