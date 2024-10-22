@@ -26,3 +26,9 @@
 # Best Practices
 - Number of pods must be equal to number of nodes
 - Use 'Auto scaling' to manual adjust number of pods vs nodes
+- Replicate master nodes accross multiple zones for high availability
+- some cpu is reserved by control plane so use multiple vcpu
+- Stateful deployments for kafka, redis, zookeeper
+- deamonset on each node for log collection or monitoring
+- 
+- 
