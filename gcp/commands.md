@@ -291,9 +291,8 @@
 > Connect to specific cluster 
 - gcloud container clusters get-credentials [CLUSTER] --zone [ZONE] --project [PROJECT_ID]
 
-> Increase the number of nodes in a cluster
+> Increase the number of nodes in a cluster [Rule: number of pods = number of nodes]
 - gcloud container clusters resize my-cluster [CLUSTER] --node-pool [NODE-POOL-NAME] --num-nodes [COUNT]
-** Make sure the number of pods = number of nodes
 
 > Delete the cluster
 - gcloud container clusters delete my-cluster [CLUSTER] --zone [ZONE] --project [PROJECT_ID]
