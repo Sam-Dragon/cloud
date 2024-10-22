@@ -293,8 +293,10 @@
 
 > Increase the number of nodes in a cluster
 - gcloud container clusters resize my-cluster [CLUSTER] --node-pool [NODE-POOL-NAME] --num-nodes [COUNT]
+** Make sure the number of pods = number of nodes
 
 > Delete the cluster
 - gcloud container clusters delete my-cluster [CLUSTER] --zone [ZONE] --project [PROJECT_ID]
+
 
 ** Note: All the kubernetes commands, refer kubernetes project
