@@ -13,7 +13,7 @@
   - Editor: Viewer + Edit Actions
   - Owner: Editor + Manage Roles & Permissions + Billing
  
-- Predefined Roles - Fine grained roles predefined & managed by google
+- Predefined Roles - Fine grained roles predefined & managed by google [RECOMMNED FOR PRODUCTION]
   - Different roles for different purposes
 
 - Custom Roles
