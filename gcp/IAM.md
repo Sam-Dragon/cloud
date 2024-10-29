@@ -33,3 +33,19 @@
 
 > Policy Troubleshooter
 - It helps to troubleshoot permission for the user
+
+> Service Account
+- VM needs access to cloud storage
+- Identified by email address [id-compute@developer.gserviceaccount.com]
+- Machine level interaction [No User Intervention]
+- It doesnt have any password
+  - It use RSA Private/Public Key
+  - Cannot login via browser or cookies
+
+> Service Account Types
+- Default Service Account [NOT RECOMMENDED]: Automatically created when services are used
+- User Managed[RECOMMENDED]: Created by user for fine grain access control
+- Google Managed Service Accounts: Created & Managed by Google
+  - Used by GCP to perform operations on user's behalf
+  - Dont worry about them
+ 
