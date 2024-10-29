@@ -333,4 +333,7 @@
 > Service Account Keys Creation
 - gcloud iam service-accounts keys create 
 
+> Singed URL
+- gsutil signurl -d 10m YOUR_KEYS gs://BUCKET_NAME/OBJECT_PATH
+
 ** Note: All the kubernetes commands, refer kubernetes project
