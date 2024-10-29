@@ -13,7 +13,7 @@
 - **Policy**: Assign roles to users 
 
 > Roles
-- Basic Roles (or Primitive Roles) - Viewer/Editor/Owner [NOT RECOMMNED FOR PRODUCTION]
+- Basic Roles (or Primitive Roles) - Viewer/Editor/Owner [**NOT** RECOMMNED FOR PRODUCTION]
   - Viewer: Read Only
   - Editor: Viewer + Edit Actions
   - Owner: Editor + Manage Roles & Permissions + Billing
@@ -22,4 +22,10 @@
   - Different roles for different purposes
 
 - Custom Roles
-  - create your own role  
+  - Create your own role  
+
+> IAM Policy
+- Binding users to the role
+- Policy object - It has list of bindings, binding binds roles to list of members
+- Member type is identified by **prefix**
+  - user, serviceaccount, group or domain
