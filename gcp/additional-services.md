@@ -13,4 +13,13 @@ Example: Creating mutliple enviroments with similar configuration
 - Deployment: Collection of resources that are deployed and managed together
 - Manifests: Read only object containing original deployment configuration
 
-> Cloud Market Place
+# Cloud Market Place
+- Central repo for easily deployable apps & datasets [Playstore]
+- One place to bring the software required for installation and manage
+
+# Cloud DNS
+
+# Cloud DataFlow
+
+# Cloud DataProc
+
