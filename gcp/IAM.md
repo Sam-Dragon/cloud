@@ -5,6 +5,7 @@
 # IAM [Identity & Access Management]
 - To control the acess to the system based on authentication & Authorization
 - It gives fine grain control to users in order to access the resource based on role assigned
+- IAM is applicable to user(s), service accounts, unauthenticated users 
 
 > Terminologies
 - **Users**: gcp user
