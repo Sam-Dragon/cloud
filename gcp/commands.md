@@ -303,19 +303,21 @@
 > Delete the cluster
 - gcloud container clusters delete [CLUSTER] --zone [ZONE] --project [PROJECT_ID]
 
-# IAM
-gcloud compute project-info describe
-gcloud auth list
-gcloud projects get-iam-policy glowing-furnace-304608
-gcloud projects add-iam-policy-binding glowing-furnace-304608 --member=user:in28minutes@gmail.com --role=roles/storage.objectAdmin
-gcloud projects remove-iam-policy-binding glowing-furnace-304608 --member=user:in28minutes@gmail.com --role=roles/storage.objectAdmin
-gcloud iam roles describe roles/storage.objectAdmin
-gcloud iam roles copy --source=roles/storage.objectAdmin --destination=my.custom.role --dest-project=glowing-furnace-304608
-
 > Create Nodepools
 - gcloud container node-pools create [NODE_POOL] --cluster [CLUSTER]
 
 > Fetch Nodepools 
 - gcloud container node-pools list --zone=[ZONE] --cluster=[CLUSTER]
+
+# IAM
+- gcloud compute project-info describe
+- gcloud auth list
+- gcloud projects get-iam-policy glowing-furnace-304608
+- gcloud projects add-iam-policy-binding glowing-furnace-304608 --member=user:in28minutes@gmail.com --role=roles/storage.objectAdmin
+- gcloud projects remove-iam-policy-binding glowing-furnace-304608 --member=user:in28minutes@gmail.com --role=roles/storage.objectAdmin
+- gcloud iam roles describe roles/storage.objectAdmin
+- gcloud iam roles copy --source=roles/storage.objectAdmin --destination=my.custom.role --dest-project=glowing-furnace-304608
+
+
 
 ** Note: All the kubernetes commands, refer kubernetes project
