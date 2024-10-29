@@ -60,3 +60,6 @@
 - IAM must be used for defining common permissions to all objects in a bucket
 - ACL must be used for customize access to individual objects
 - Access Controls: Uniform [IAM] & Fine Grained [IAM + ACL]
+
+> Cloud Storage - **Signed URL**
+- A URL that gives permission for limited time to perform specific actions
