@@ -29,3 +29,4 @@
 - Policy object - It has list of bindings, binding binds roles to list of members
 - Member type is identified by **prefix**
   - user, serviceaccount, group or domain
+- Members to roles is many-to-many relationship
