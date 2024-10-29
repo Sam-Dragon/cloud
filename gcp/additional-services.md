@@ -3,7 +3,7 @@
 > Google Cloud Deployment Manager
 - Automatic provisioning of infrastructure
 - All configurations is defined in simple text file - YAML
-- Managed dependencies, Automatic rollbacks, version control
-<br>Example: Creating mutliple enviroments with similar configuration
+- Managed dependencies, Automatic rollbacks, version control<br>
+Example: Creating mutliple enviroments with similar configuration
 
 > 
