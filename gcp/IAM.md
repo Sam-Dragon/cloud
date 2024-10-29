@@ -49,3 +49,7 @@
   - Used by GCP to perform operations on user's behalf
   - Dont worry about them
  
+> SA Use Cases
+- [Internal] VM to Cloud Storage/Pubsub - [Uses Google Managed Keys]
+- [External] On Premises to Cloud Storage - [Internal required Service Account User Managed Keys]
+- [External] On Premises to Google Cloud API's - [OAuth2, OpenIDConnect, JWT]
