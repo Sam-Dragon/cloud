@@ -312,10 +312,20 @@
 # IAM
 - gcloud compute project-info describe
 - gcloud auth list
+
+> Fetch Policy
 - gcloud projects get-iam-policy [PROJECT_ID]
+
+> Add Policy
 - gcloud projects add-iam-policy-binding [PROJECT_ID] --member=[EMAIL] --role=roles/storage.objectAdmin
+
+> Remove Policy
 - gcloud projects remove-iam-policy-binding [PROJECT_ID] --member=user:=[EMAIL] --role=roles/storage.objectAdmin
+
+> Describe Role
 - gcloud iam roles describe roles/storage.objectAdmin
+
+> Copy Role
 - gcloud iam roles copy --source=roles/storage.objectAdmin --destination=my.custom.role --dest-project=[PROJECT_ID]
 
 
