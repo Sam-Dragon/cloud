@@ -1,5 +1,6 @@
 # Hierarchy
-> Organization -> Folder -> Projects -> Resources 
+> Organization -> Folder -> Projects -> Resources
+> One project per application per enviroment
 
 # IAM [Identity & Access Management]
 - To control the acess to the system based on authentication & Authorization
