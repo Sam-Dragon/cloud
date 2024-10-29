@@ -328,6 +328,9 @@
 > Copy Role
 - gcloud iam roles copy --source=roles/storage.objectAdmin --destination=my.custom.role --dest-project=[PROJECT_ID]
 
+# Service Account
 
+> Service Account Keys Creation
+- gcloud iam service-accounts keys create 
 
 ** Note: All the kubernetes commands, refer kubernetes project
