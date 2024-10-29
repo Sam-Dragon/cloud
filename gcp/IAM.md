@@ -30,3 +30,6 @@
 - Member type is identified by **prefix**
   - user, serviceaccount, group or domain
 - Members to roles is many-to-many relationship
+
+> Policy Troubleshooter
+- It helps to troubleshoot permission for the user
