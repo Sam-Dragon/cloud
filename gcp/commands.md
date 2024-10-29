@@ -255,7 +255,7 @@
   - --trigger-bucket (OR) --trigger-bucket (OR) --trigger-topic (OR) --trigger-event-filters [gen2] 
 
 # Pub/sub
-- gcloud config set project glowing-furnace-304608
+- gcloud config set project [PROJECT_ID]
 
 > Topics
 - gcloud pubsub topics create topic-from-gcloud
@@ -312,11 +312,11 @@
 # IAM
 - gcloud compute project-info describe
 - gcloud auth list
-- gcloud projects get-iam-policy glowing-furnace-304608
-- gcloud projects add-iam-policy-binding glowing-furnace-304608 --member=user:in28minutes@gmail.com --role=roles/storage.objectAdmin
-- gcloud projects remove-iam-policy-binding glowing-furnace-304608 --member=user:in28minutes@gmail.com --role=roles/storage.objectAdmin
+- gcloud projects get-iam-policy [PROJECT_ID]
+- gcloud projects add-iam-policy-binding [PROJECT_ID] --member=[EMAIL] --role=roles/storage.objectAdmin
+- gcloud projects remove-iam-policy-binding [PROJECT_ID] --member=user:=[EMAIL] --role=roles/storage.objectAdmin
 - gcloud iam roles describe roles/storage.objectAdmin
-- gcloud iam roles copy --source=roles/storage.objectAdmin --destination=my.custom.role --dest-project=glowing-furnace-304608
+- gcloud iam roles copy --source=roles/storage.objectAdmin --destination=my.custom.role --dest-project=[PROJECT_ID]
 
 
 
