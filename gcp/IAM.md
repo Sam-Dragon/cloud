@@ -63,3 +63,8 @@
 
 > Cloud Storage - **Signed URL**
 - A URL that gives permission for limited time to perform specific actions
+
+> Cloud Storage - **Static Websites**
+- Bucket Name same as domain name
+- Copy all files to bucket
+- Give access to all users by providing permissions
