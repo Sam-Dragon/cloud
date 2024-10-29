@@ -53,3 +53,10 @@
 - [Internal] VM to Cloud Storage/Pubsub - [Uses Google Managed Keys]
 - [External] On Premises to Cloud Storage - [Internal required Service Account User Managed Keys]
 - [External] On Premises to Google Cloud API's - [OAuth2, OpenIDConnect, JWT]
+
+> ACL [Access Control Lists]
+- defines the level of access for a resource
+- Access can be fetched either by IAM or ACL
+- IAM must be used for defining common permissions to all objects in a bucket
+- ACL must be used for customize access to individual objects
+- Access Controls: Uniform [IAM] & Fine Grained [IAM + ACL]
