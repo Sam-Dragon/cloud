@@ -20,6 +20,11 @@ Example: Creating mutliple enviroments with similar configuration
 # Cloud DNS
 
 # Cloud DataFlow
+- It is serverless
+- It is service which streams the data between platforms
+- Migrate data, compress data, convert formats
+- Example: Fraud Detection, Sensor Data Processing, Batch Processing
+- It is based on Apache Beam
 
 # Cloud DataProc
 - Managed Spark & Hadoop Service
