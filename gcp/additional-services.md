@@ -18,6 +18,8 @@ Example: Creating mutliple enviroments with similar configuration
 - One place to bring the software required for installation and manage
 
 # Cloud DNS
+- It is service for setting up an website
+- 
 
 # Cloud DataFlow
 - It is serverless
