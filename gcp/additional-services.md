@@ -22,4 +22,9 @@ Example: Creating mutliple enviroments with similar configuration
 # Cloud DataFlow
 
 # Cloud DataProc
-
+- Managed Spark & Hadoop Service
+- It is mainly used for AI/ML
+- It uses VM internally
+- Modes: Single/Standard/High Availability [3 replicas]
+- It is data analysis platform
+- Alternative: BigQuery
