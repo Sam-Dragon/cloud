@@ -350,3 +350,6 @@
 
 # SSH
 - gcloud compute ssh
+
+> OS Login
+- gcloud compute ssh os-login add 
