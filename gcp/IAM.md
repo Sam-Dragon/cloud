@@ -77,6 +77,6 @@
 - Use groups whenever possible
 
 > User Identity Management
-- Google Workspace
+- Google Workspace [GSuite]
 - External Identity Providers [Active Directory or Azure Active Directory]
   - Enable Single Sign On 
