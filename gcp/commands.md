@@ -347,3 +347,6 @@
 - Transactions to the managed zone
   - gcloud dns record-sets transaction start --zone 
   - gcloud dns record-sets transaction add --name=[RECORD] --ttl --type A/Cname --zone=[ZONE_NAME]
+
+# SSH
+- gcloud compute ssh
