@@ -75,3 +75,8 @@
 - Seperation of duties
 - Constant monitoring
 - Use groups whenever possible
+
+> User Identity Management
+- Google Workspace
+- External Identity Providers [Active Directory or Azure Active Directory]
+  - Enable Single Sign On 
