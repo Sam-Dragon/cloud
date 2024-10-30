@@ -1,5 +1,6 @@
 # Hierarchy
 - Organization -> Folder -> Projects -> Resources
+- [Organization + Folder] not applicable in free tier account
 - One project per application per enviroment
 
 # IAM [Identity & Access Management]
