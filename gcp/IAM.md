@@ -69,3 +69,9 @@
 - Bucket Name same as domain name
 - Copy all files to bucket
 - Give access to all users by providing permissions
+
+> IAM Best Practices
+- Principal of Least Privilege
+- Seperation of duties
+- Constant monitoring
+- Use groups whenever possible
