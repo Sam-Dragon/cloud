@@ -336,4 +336,7 @@
 > Singed URL
 - gsutil signurl -d 10m YOUR_KEYS gs://BUCKET_NAME/OBJECT_PATH
 
+> Cloud DNS
+- gcloud dns managed-zones create ZONE_NAME
+
 ** Note: All the kubernetes commands, refer kubernetes project
