@@ -80,3 +80,8 @@
 - Google Workspace [GSuite]
 - External Identity Providers [Active Directory or Azure Active Directory]
   - Enable Single Sign On 
+
+> Organization Policy Service
+- It is global contraints
+- To apply constraints on all resources accross the organizations
+- Organization Policy Administrator role  
