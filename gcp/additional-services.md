@@ -18,8 +18,9 @@ Example: Creating mutliple enviroments with similar configuration
 - One place to bring the software required for installation and manage
 
 # Cloud DNS
-- It is service for setting up an website
-- 
+- It is global Domain Name System
+- It is service for setting up an website with a domain name
+- It supports 2 zones: Public & Private
 
 # Cloud DataFlow
 - It is serverless
