@@ -353,3 +353,6 @@
 
 > OS Login
 - gcloud compute ssh os-login add 
+
+> Block
+- gcloud compute instances add-metadata [INSTANCE] --metadata block-project-ssh-keys=TRUE
