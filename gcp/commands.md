@@ -338,5 +338,12 @@
 
 > Cloud DNS
 - gcloud dns managed-zones create ZONE_NAME
-
+  - --description (Required: short description of managed zone)
+  - --dns-name (Required: dns name that needs to be managed with the create zone)
+  - --visibility (private/public)
+  - --networks (list of networks to the specific zone)
 ** Note: All the kubernetes commands, refer kubernetes project
+
+- Transactions to the managed zone
+  - gcloud dns record-sets transaction start --zone 
+  - gcloud dns record-sets transaction add --name=[RECORD] --ttl --type A/Cname --zone=[ZONE_NAME]
