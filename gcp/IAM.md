@@ -86,3 +86,5 @@
 - It is global contraints
 - To apply constraints on all resources accross the organizations
 - Organization Policy Administrator role  
+
+Note: Section 23 [Role Information]
