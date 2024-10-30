@@ -26,12 +26,13 @@
   - Create your own role  
 
 > IAM Policy
-- Binding users to the role
+- It is policy applicable to any resource [organization, folder, project, resource]
 - Policy object - It has list of bindings, binding binds roles to list of members
 - Member type is identified by **prefix**
   - user, serviceaccount, group or domain
 - Members to roles is many-to-many relationship
-
+- Binding users to the role
+  
 > Policy Troubleshooter
 - It helps to troubleshoot permission for the user
 
