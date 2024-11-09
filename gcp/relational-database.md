@@ -55,8 +55,10 @@
   - Cloud SQL: Supports MySQL, PostgresSQL & SQL Server for regional database [upto few TB's]
   - Cloud Spanner: Unlimited scale [multiple PB's] availibility to global applications with horizonal scaling
 
-  > Relational Database - OLAP
-  - Used to analyze petabytes of data
-  - Use Cases: Reporting Systems, Data warehouses, Business Intelligence 
-  - Google Managed Service:
-    - BigQuery: uses petabytes of data  
+> Relational Database - OLAP
+- Used to analyze petabytes of data
+- It uses columnar storage
+- It uses high-compression, distribute data, single query across nodes
+- Use Cases: Reporting Systems, Data warehouses, Business Intelligence
+- Google Managed Service:
+  - BigQuery: uses petabytes of data  
