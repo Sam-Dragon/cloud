@@ -39,9 +39,24 @@
   - Based on No. of transactions per second [hundred or million or trillion]
   - Based on data size [MBs or GBs or PBs]     
 
-> Relational Database
-- predefined schema with tables & relationships
-- strong transactional capabilities
+# Relational Database
+- Predefined schema with tables & relationships
+- Strong transactional capabilities
 - Used for OLTP [Online Transaction Processing] usecases
 - Used for OLAP [Online Analytics Processing] usecases
 
+> Relational Database - OLTP
+- Large number of users making large number of transactions
+- It uses row storage
+- Use cases - ERP, CRM, E-Commerce, Banking Apps
+- Popular Databases:
+  - MySql, PostgresSql, Oracle sql etc.
+- Google Managed Service:
+  - Cloud SQL: Supports MySQL, PostgresSQL & SQL Server for regional database [upto few TB's]
+  - Cloud Spanner: Unlimited scale [multiple PB's] availibility to global applications with horizonal scaling
+
+  > Relational Database - OLAP
+  - Used to analyze petabytes of data
+  - Use Cases: Reporting Systems, Data warehouses, Business Intelligence 
+  - Google Managed Service:
+    - BigQuery: uses petabytes of data  
