@@ -31,3 +31,10 @@
   - Inserts are available immediately, however updates uses eventual consistency
 
 > Categories
+- Relational [OLTP & OLAP], Document, Graph, Key Value, In-Memory etc..
+- Key Factors
+  - Based on Schema or Schemaless
+  - Based on transaction properties [Atomicity & Consistency]
+  - Based on latency [seconds, milliseconds or microseconds]
+  - Based on No. of transactions per second [hundred or million or trillion]
+  - Based on data size [MBs or GBs or PBs]     
