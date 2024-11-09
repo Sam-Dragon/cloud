@@ -2,7 +2,7 @@
 
 > Problems
 - If database crashes, data is lost
-- If datacenter crashes, data will be down
+- If datacenter crashes, database will be down
 
 > Prime Factors
 - Availability
@@ -38,3 +38,10 @@
   - Based on latency [seconds, milliseconds or microseconds]
   - Based on No. of transactions per second [hundred or million or trillion]
   - Based on data size [MBs or GBs or PBs]     
+
+> Relational Database
+- predefined schema with tables & relationships
+- strong transactional capabilities
+- Used for OLTP [Online Transaction Processing] usecases
+- Used for OLAP [Online Analytics Processing] usecases
+
