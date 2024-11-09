@@ -12,7 +12,7 @@
 - Used for small & medium databases
 
 > Cloud BigTable
-- Not Serverless
+- Not Serverless [Requires VM instances]
 - Recommended data size > 10 TB to PB's
 - Recommended for operational & analytical workloads
 - Not recommended for transactional workloads [supports single row transactions] 
