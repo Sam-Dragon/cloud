@@ -62,3 +62,17 @@
 - Use Cases: Reporting Systems, Data warehouses, Business Intelligence
 - Google Managed Service:
   - BigQuery: uses petabytes of data  
+
+> Cloud SQL
+- Fully managed relational database service
+- supports MySQL, PostgresSQL & SQL Server
+- It is regional service not global
+- Use HHD's or SSD's
+- Upto 416GB of RAM & 30TB of data storage
+
+> Cloud Spanner:
+- Huge volumes of relational data
+- Infinite 'scaling' of growing application
+- Need 'global' database
+- Higher availability
+- It is very expensive 
