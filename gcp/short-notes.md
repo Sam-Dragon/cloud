@@ -12,4 +12,4 @@
 # Databases
 - Relational OLTP databases: Cloud SQL [Small scale], Cloud Spanner [Large scale]
 - Relational OLAP databases: BigQuery [Datawarehousing & BigData workloads]
-- NoSQL databases: Cloud Firestore (Datastore++) [serverless, medium scale], Cloud BigTable [No Serverless, large scale - IOT, analytical & operational workloads]
+- NoSQL databases: Cloud Firestore (Datastore++) [serverless, medium scale - mobile & web apps], Cloud BigTable [No Serverless, large scale - IOT, analytical & operational workloads]
