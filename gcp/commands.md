@@ -356,3 +356,16 @@
 
 > Block
 - gcloud compute instances add-metadata [INSTANCE] --metadata block-project-ssh-keys=TRUE
+
+# Database
+
+> Cloud SQL
+- gcloud config set project glowing-furnace-304608
+- gcloud sql connect my-first-cloud-sql-instance --user=root --quiet
+
+> BigQuery
+- bq show bigquery-public-data:samples.shakespeare
+
+> Cloud BigTable
+- cbt listinstances -project=glowing-furnace-304608
+- cbt listinstances 
