@@ -77,8 +77,13 @@
 - High availability uses primary & standby instance. It cannot be used as a Read replica. At a time only single instance is connected
 
 > Cloud Spanner:
+- Fully managed, 'Mission critical' database
 - Huge volumes of relational data
 - Infinite 'scaling' of growing application
 - Need 'global' database
 - Higher availability
 - It is very expensive 
+- Strong transactional consistency
+- Scale to PB's of data with automatic sharding
+- Horizontal scaling
+- Export can be done via cloud console or dataflow but 'gcloud export' is not supported
