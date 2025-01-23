@@ -19,3 +19,4 @@
 - Cloud Storage - gsutil
 - Cloud BigQuery - bq
 - Cloud Bigtable - cbt
+- Kubernetes - kubectl
