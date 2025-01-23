@@ -20,3 +20,5 @@
 - Cloud BigQuery - bq
 - Cloud Bigtable - cbt
 - Kubernetes - kubectl
+- Configurations [Account, Project, Region, Zone Info] - gcloud config
+- Compute [VM, machine types, Regions, Zones Info] - gcloud compute 
