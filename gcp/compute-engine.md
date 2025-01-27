@@ -169,7 +169,7 @@ Note: They are billable even if you dont use it
 - It is standard of distributing of data over the network
 - Network Layer[L3]: It transfer bits and bytes [0, 1]. It is Unreliable
     - IP  
-- Transport Layer[L4]: It ensures the bits and bytes are transferred properly\
+- Transport Layer[L4]: It ensures the bits and bytes are transferred properly
     - TCP [Transmission Control]: Transfer bytes in order. Reliability > Perfromance
     - TLS [Transport Layer Security]: Secured TCP
     - UDP [User Datagram Protocol]: Alternate to TCP. Performance > Reliability 
