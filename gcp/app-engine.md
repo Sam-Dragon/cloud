@@ -26,13 +26,28 @@
     - limited network acess 
   - v2: new one which supports runtimes such java, python, php,go
     - full network access & no language restrictions
+  - It supports scaling type such as Automatic, Manual, Basic
+  - It can scale down to zero
+  - Starts up in seconds
+  - Supports Rapid scaling
+  - Max request timeout is between 1 to 10 minutes
+  - Local disk writes to /tmp folder
+  - ssh for debugging is not allowed
+  - charged based on instance hours
+
 - Flexible
   - Applications instances runs with **docker containers** 
   - Makes use of compute engine VM's
   - Supports any runtime
   - Provides access to local disks and background process
-
-**Note**: App comparision to pick environment in video.90
+  - It supports scaling type such as Automatic, Manual
+  - It cannot scale down to zero. It needs minimum one instance
+  - Starts up in minutes
+  - Doesnt Support Rapid scaling
+  - Max request timeout is upto 60 minutes
+  - Local disk writes to new disk if created on startup
+  - ssh for debugging is allowed
+  - charged based on persistence disks, vcpu's, memory
 
 > Application Component Hierarchy
 - Application
