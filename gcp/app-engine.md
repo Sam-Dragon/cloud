@@ -32,7 +32,7 @@
   - Supports any runtime
   - Provides access to local disks and background process
 
-**Note**: App comparision to pick environment in video.88
+**Note**: App comparision to pick environment in video.90
 
 > Application Component Hierarchy
 - Application
