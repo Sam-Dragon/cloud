@@ -21,7 +21,8 @@
 - Cloud Bigtable - cbt
 - Kubernetes - kubectl
 - Configurations [Account, Project, Region, Zone Info] - gcloud config
-- Compute [Regions, Zones Info, VM, machine types, Instance Templates, Instance Groups] - gcloud compute
+- Compute Engine [Regions, Zones Info, VM, machine types, Instance Templates, Instance Groups] - gcloud compute
+- App Engine [deploy, services, instances, versions,] - gcloud app
 
 # Scenarios
 - Compute Engine [IaaS] - VM management 
