@@ -22,7 +22,7 @@
 - Kubernetes - kubectl
 - Configurations [Account, Project, Region, Zone Info] - gcloud config
 - Compute Engine [Regions, Zones Info, VM, machine types, Instance Templates, Instance Groups] - gcloud compute
-- App Engine [deploy, services, instances, versions,] - gcloud app
+- App Engine [deploy, services, instances, versions, browse] - gcloud app
 
 # Scenarios
 - Compute Engine [IaaS] - VM management 
