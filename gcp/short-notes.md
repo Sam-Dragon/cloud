@@ -23,10 +23,25 @@
 - It can be used for batch process, data upload
 - No server management
 
+> **Gen 2**
+- It uses '**cloud run**' internally for multiple revisons & traffic splitting
+- Longer Request Timeout: upto 60 mins [1st gen has only 9mins]
+- Large Instances Size: upto 16GB ram and 4vCPU [1st has max 8GB ram & 2 vCPU]
+- Concurrency: upto 1000 concurrent requests per function instance [v1: only 1 request per instance]
+- Multiple Function Revisions and Traffic Splitting supported [v1 not supported]
+- Support 90+ event types - enabled by Eventarc [v1 has only 7 event types]
+
 # Cloud Run
 - It is CAAS or serverless
 - No server management
 - funlly managed serverless platform for containerized applications
+
+# Scenarios
+- Compute Engine [IaaS] - VM management 
+- Google Kubernetes Engine [CaaS] - containerized apps with cluster
+- App Engine [PaaS (CaaS, Serverless)] - Application code management
+- Cloud Functions [Faas] - Event driven apps
+- Cloud Run [CAAS (Serverless)] - containerized apps without cluster
 
 # GCloud Commands
 - Cloud Storage - gsutil
@@ -36,10 +51,4 @@
 - Configurations [Account, Project, Region, Zone Info] - gcloud config
 - Compute Engine [Regions, Zones Info, VM, machine types, Instance Templates, Instance Groups] - gcloud compute
 - App Engine [deploy, services, instances, versions, browse] - gcloud app
-
-# Scenarios
-- Compute Engine [IaaS] - VM management 
-- Google Kubernetes Engine [CaaS] - containerized apps with cluster
-- App Engine [PaaS (CaaS, Serverless)] - Application code management
-- Cloud Functions [Faas] - Event driven apps
-- Cloud Run [CAAS (Serverless)] - containerized apps without cluster
+- Cloud Run [deploy, service, revision, ] - gcloud run 
