@@ -51,4 +51,5 @@
 - Configurations [Account, Project, Region, Zone Info] - gcloud config
 - Compute Engine [Regions, Zones Info, VM, machine types, Instance Templates, Instance Groups] - gcloud compute
 - App Engine [deploy, services, instances, versions, browse] - gcloud app
-- Cloud Run [deploy, service, revision, ] - gcloud run 
+- Cloud Run [deploy, service, revision] - gcloud run
+- Cloud Functions [deploy, service, revision] - gcloud functions
