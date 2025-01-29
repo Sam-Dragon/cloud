@@ -15,6 +15,12 @@
 - NoSQL databases: Cloud Firestore (Datastore++) [serverless, medium scale - mobile & web apps], Cloud BigTable [No Serverless, large scale - IOT, analytical & operational workloads, time-series data]
 - In-memory databases: Cloud Memorystore
 
+# Cloud Functions
+- It is short lived process which is event driven
+- It is FAAS or serverless
+- It can be used for batch process, data upload
+- No server management
+
 # GCloud Commands
 - Cloud Storage - gsutil
 - Cloud BigQuery - bq
