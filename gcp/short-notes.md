@@ -21,6 +21,11 @@
 - It can be used for batch process, data upload
 - No server management
 
+# Cloud Run
+- It is CAAS or serverless
+- No server management
+- funlly managed serverless platform for containerized applications
+
 # GCloud Commands
 - Cloud Storage - gsutil
 - Cloud BigQuery - bq
