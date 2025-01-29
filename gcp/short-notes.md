@@ -1,10 +1,12 @@
 # Compute Engine
+- It is Iaas
 - Virtual Machine: Basic server configuration sits here [Charagable]
 - Instance Templates: Template configuration for creating VM [Not Charagable]
 - Instance Groups: It is like replicate set which will use instance templates & creates VM's
 - Load Balancer: It uses instance groups for managing traffic across VM's
 
 # App Engine
+- It is Paas
 - Application: It is based on region & can be specified with version
 - Service: The instance of application & it can have applications with different versions 
 - Version: Each deployment of application is treated as new version
@@ -16,8 +18,8 @@
 - In-memory databases: Cloud Memorystore
 
 # Cloud Functions
-- It is short lived process which is event driven
 - It is FAAS or serverless
+- It is short lived process which is event driven
 - It can be used for batch process, data upload
 - No server management
 
