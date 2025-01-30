@@ -47,5 +47,12 @@ Ex: caches, temporary data, scratch files
 - Increase size when needed
 - They are regional and zonal
 - It provides snapshots
+- permenant storage
+- Types
+  - Balanced Persistent Disk
+  - Standard Persistent Disk
+  - SSD Persistent Disk 
 Ex: Run custom database
+
+
 
