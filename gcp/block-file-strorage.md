@@ -16,3 +16,7 @@ Ex: Hard disk
 - Persistent Disks: Network Block Storage
   - zonal: data replicated to single zone
   - regional: data replicated to multiple zone
+- LocalSSDs: Local Block Storage
+
+> File Storage
+- Filestore: High performance file storage
