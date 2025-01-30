@@ -6,7 +6,9 @@
 - Load Balancer: It uses instance groups for managing traffic across VM's
 
 # App Engine
-- It is Paas
+- It is PaaS
+- It is always one app per project
+- change of region is not possible once configured
 - Application: It is based on region & can be specified with version
 - Service: The instance of application & it can have applications with different versions 
 - Version: Each deployment of application is treated as new version
