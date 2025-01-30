@@ -11,8 +11,7 @@ Ex: Hard disk
 - media workflows like video editing
 - share files to multiple file servers
 
-# GCP 
-> Block Storage
+# GCP Block Storage
 - It is part of compute engine
 - Types
   - Persistent Disks: Network Block Storage
@@ -20,6 +19,28 @@ Ex: Hard disk
     - regional: data replicated to multiple zone
   - LocalSSDs: Local Block Storage
 
-> File Storage
+# GCP File Storage
 - It is not part of compute engine
 - Filestore: High performance file storage. 
+
+# LocalSSDs
+- physically attached to host of VM instance
+- stores temporary data [ephemeral storage]
+- automatically encrypted [google managed] - cannot configure custom keys
+- lifecycle tied to vm instance
+- only some machine types supports local ssds 
+- supports SCSI and NVMe interface
+
+> Advantages
+- very fast I/O [high thorughput & low latency]
+- High IOP's while storing temporary information
+Ex: caches, temporary data, scratch files
+
+> Disadvantages
+- ephemeral storage
+- cannot detach and attach it to another VM instance
+
+# Persistent Disks
+- It will stored in the network
+- more durable
+- lifecycle is not tied to vm instance
