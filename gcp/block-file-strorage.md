@@ -32,19 +32,20 @@ Ex: Hard disk
 - supports SCSI and NVMe interface
 
 > Advantages
-- very fast I/O [high thorughput & low latency]
+- Very fast I/O [high thorughput & low latency]
 - High IOP's while storing temporary information
 Ex: caches, temporary data, scratch files
 
 > Disadvantages
-- ephemeral storage
-- cannot detach and attach it to another VM instance
+- Ephemeral storage
+- Cannot detach and attach it to another VM instance
 
 # Persistent Disks
 - It will stored in the network
-- more durable
+- More durable
 - lifecycle is not tied to vm instance
-- increase size when needed
+- Increase size when needed
 - They are regional and zonal
+- It provides snapshots
 Ex: Run custom database
 
