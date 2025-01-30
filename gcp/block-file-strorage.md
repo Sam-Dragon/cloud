@@ -13,10 +13,12 @@ Ex: Hard disk
 
 # GCP 
 > Block Storage
+- It is part of compute engine
 - Persistent Disks: Network Block Storage
   - zonal: data replicated to single zone
   - regional: data replicated to multiple zone
 - LocalSSDs: Local Block Storage
 
 > File Storage
-- Filestore: High performance file storage. It is not part of compute engine
+- It is not part of compute engine
+- Filestore: High performance file storage. 
