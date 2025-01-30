@@ -40,6 +40,17 @@
 - No server management
 - funlly managed serverless platform for containerized applications
 
+# Cloud KMS [Key Management Service]
+- It is responsible to manage cryptographic keys
+- It can be used for both software and hardware
+- Integrates with most of gcp services by encypting data in multiple ways
+  - Google Managed Key: No configuration
+  - Custom Managed Key: Key managed by KMS
+  - Customer Supplied Key: User defined key
+- Encryption ways
+  - Symmetric Key Encryption: Same key for both encyption and decryption
+  - ASymmetric Key Encryption: public key for encryption but private key for decryption. uses public key cryptography such as RSA
+
 # Scenarios
 - Compute Engine [IaaS] - VM management 
 - Google Kubernetes Engine [CaaS] - containerized apps with cluster
