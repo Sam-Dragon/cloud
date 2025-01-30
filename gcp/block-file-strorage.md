@@ -19,4 +19,4 @@ Ex: Hard disk
 - LocalSSDs: Local Block Storage
 
 > File Storage
-- Filestore: High performance file storage
+- Filestore: High performance file storage. It is not part of compute engine
