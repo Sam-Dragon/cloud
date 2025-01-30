@@ -4,6 +4,8 @@
 - Instance Templates: Template configuration for creating VM [Not Charagable]
 - Instance Groups: It is like replicate set which will use instance templates & creates VM's
 - Load Balancer: It uses instance groups for managing traffic across VM's
+- Preemptible VM: short-lived cheaper compute instances [Max 24 hrs]
+- Spot VM: short-lived cheaper compute instances with any time limit
 
 # App Engine
 - It is PaaS
