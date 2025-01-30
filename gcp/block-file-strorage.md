@@ -44,3 +44,7 @@ Ex: caches, temporary data, scratch files
 - It will stored in the network
 - more durable
 - lifecycle is not tied to vm instance
+- increase size when needed
+- They are regional and zonal
+Ex: Run custom database
+
