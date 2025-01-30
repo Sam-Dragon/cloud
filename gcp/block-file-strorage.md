@@ -54,5 +54,9 @@ Ex: caches, temporary data, scratch files
   - SSD Persistent Disk 
 Ex: Run custom database
 
-
-
+> Standard vs Balanced vs SSD
+- Underlyning Storage: Standard uses "Hard Disk Drive" where as Balanced & SSD uses "Solid State Drive"
+- Performance of Sequencial IOPS for standard and Balanced is "Good" and for SSD it is "Very Good"
+- Performance of Random IOPS for standard is "Bad" and Balanced is "Good" and for SSD it is "Very Good"
+- Cost for standard is "Cheapest" and Balanced is "In-Between" and for SSD it is "Expensive"
+- Use cases for standard is Big Data and Balanced is "between cost and performance" and for SSD it is "High performance"
