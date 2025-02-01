@@ -69,3 +69,10 @@ Ex: Run custom database
 - Image contains OS and created from boot persistent disk
 - Machine image is created from VM instance [configuration, metadata, permissions, one or more persistent disks]
 - Recommended for disk backups, instance cloning & replication
+
+# Cloud Filestore
+- supports NFSv3 protocol
+- provisioned capacity
+- suitable for high performance workloads
+- supports HDD (general purpose) & SSD (performance critical workloads)
+- Use cases: file share, media workflows & content management
