@@ -61,4 +61,10 @@ Ex: Run custom database
 - Cost for standard is "Cheapest" and Balanced is "In-Between" and for SSD it is "Expensive"
 - Use cases for standard is Big Data and Balanced is "between cost and performance" and for SSD it is "High performance"
 
-> 
+> Snapshots
+- Backup of disk on specified time. It can be scheduled and attached to disk
+- It can create vm instance or disk
+
+> Machine Images
+- Image contains OS and created from boot persistent disk
+- Machine image is created from VM instance [configuration, metadata, permissions, one or more persistent disks]
