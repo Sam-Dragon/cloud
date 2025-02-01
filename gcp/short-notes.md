@@ -8,6 +8,10 @@
 - Load Balancer: It uses instance groups for managing traffic across VM's
 - Preemptible VM: short-lived cheaper compute instances [Max 24 hrs]
 - Spot VM: short-lived cheaper compute instances with any time limit
+- Instance template mainly used for cloning, replication and contains vm configuration but no backup
+- where as custom images used for cloning, replication and single disk backup but no configuration
+- where as persistent disks snaphots used only for disks backup but no configuration nor cloning and replication
+- finally machine images manages everything backups, cloning and replication, configuration
 
 # App Engine
 - It is PaaS
