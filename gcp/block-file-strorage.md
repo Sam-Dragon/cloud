@@ -68,3 +68,4 @@ Ex: Run custom database
 > Machine Images
 - Image contains OS and created from boot persistent disk
 - Machine image is created from VM instance [configuration, metadata, permissions, one or more persistent disks]
+- Recommended for disk backups, instance cloning & replication
