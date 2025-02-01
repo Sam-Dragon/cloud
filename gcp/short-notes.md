@@ -2,6 +2,7 @@
 - It is Iaas
 - Virtual Machine: Basic server configuration sits here [Charagable]
 - Instance Templates: Template configuration for creating VM [Not Charagable]
+- Machine Image: Similar to instance template but additionally save disks data as well as permissions 
 - Instance Groups: It is like replicate set which will use instance templates & creates VM's
 - Load Balancer: It uses instance groups for managing traffic across VM's
 - Preemptible VM: short-lived cheaper compute instances [Max 24 hrs]
