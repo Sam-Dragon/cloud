@@ -3,15 +3,16 @@
 - Virtual Machine: Basic server configuration sits here [Charagable]
 - Instance Templates: Template configuration for creating VM [Not Charagable]
 - Image: It is created from boot persistent disk
-- Machine Image: Similar to instance template but additionally save multiple boot disks data as well as permissions
+- Machine Image: Similar to instance template but additionally save multiple boot disks data, permissions [Charagable]
 - Instance Groups: It is like replicate set which will use instance templates & creates VM's
 - Load Balancer: It uses instance groups for managing traffic across VM's
 - Preemptible VM: short-lived cheaper compute instances [Max 24 hrs]
 - Spot VM: short-lived cheaper compute instances with any time limit
+- Filestore: used for sharing files 
 
 > Instance Template vs Custom Images vs Persistent disks snapshots vs Machine Images
 - Instance template mainly used for cloning, replication and contains vm configuration but no backup
-- where as custom images used for cloning, replication and single disk backup but no configuration
+- where as custom images used for cloning and replication and single disk backup but no configuration
 - where as persistent disks snaphots used only for disks backup but no configuration nor cloning and replication
 - finally machine images manages everything backups, cloning and replication, configuration
 
@@ -72,7 +73,7 @@
 - Cloud Bigtable - cbt
 - Kubernetes - kubectl
 - Configurations [Account, Project, Region, Zone Info] - gcloud config
-- Compute Engine [Regions, Zones Info, VM, machine types, Instance Templates, Instance Groups] - gcloud compute
+- Compute Engine [Regions, Zones Info, VM, machine types, Instance Templates, Instance Groups, local and persistent disks, Images, ] - gcloud compute
 - App Engine [deploy, services, instances, versions, browse] - gcloud app
 - Cloud Run [deploy, service, revision] - gcloud run
 - Cloud Functions [deploy, service, revision] - gcloud functions
