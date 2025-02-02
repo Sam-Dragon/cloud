@@ -9,3 +9,5 @@
 - Nearline: Best for **backups** and data access less than a **month**
 - coldline: Best for **disaster recovery** and data access less than a **quarter**
 - Archive:  Best for **long-term digital preservation** of data and data access less than a **year**
+
+> 
