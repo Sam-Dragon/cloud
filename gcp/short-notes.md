@@ -77,3 +77,4 @@
 - App Engine [deploy, services, instances, versions, browse] - gcloud app
 - Cloud Run [deploy, service, revision] - gcloud run
 - Cloud Functions [deploy, service, revision] - gcloud functions
+- Cloud Storage - gsutil
