@@ -1,6 +1,7 @@
 # Cloud Storage
 
-- bucket: container to store all the objects in cloud. It must be unique 
+> Bucket
+- Container to store all the objects in cloud. It must be unique 
 - It can store the data in zonal or regional or multi-regional
 
 > Storage Class
