@@ -70,7 +70,9 @@
   - Storage Admin: Manages buckets and all the objects in the bucket
   - Storage Object Admin: Manages all the objects within a bucket [cannot create new buckets]
   - Storage Object Viewer: Reads all the objects within a bucket [No editing]
-  - Storage Object Creator: Creates objects in an a bucket 
+  - Storage Object Creator: Creates objects in an a bucket
+ 
+- Custom Roles: if not defined in predefined roles 
     
 # Scenarios
 - Compute Engine [IaaS] - VM management 
