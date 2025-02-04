@@ -60,6 +60,15 @@
   - Symmetric Key Encryption: Same key for both encyption and decryption
   - ASymmetric Key Encryption: public key for encryption but private key for decryption. uses public key cryptography such as RSA
 
+# IAM
+- Basic Roles (or Primitive Roles) - Viewer/Editor/Owner [**NOT** RECOMMNED FOR PRODUCTION]
+  - Viewer: Read Only
+  - Editor: Viewer + Edit Actions
+  - Owner: Editor + Manage Roles & Permissions + Billing
+
+- Predefined Roles - Fine grained roles predefined & managed by google [RECOMMNED FOR PRODUCTION]
+  - Different roles for different purposes
+    
 # Scenarios
 - Compute Engine [IaaS] - VM management 
 - Google Kubernetes Engine [CaaS] - containerized apps with cluster
