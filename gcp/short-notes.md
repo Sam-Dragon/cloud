@@ -47,7 +47,8 @@
 # Cloud Run
 - It is CAAS or serverless
 - No server management
-- funlly managed serverless platform for containerized applications
+- fully managed serverless platform for containerized applications
+- **It fully managed and deploys serverless applications** 
 
 # Cloud KMS [Key Management Service]
 - It is responsible to manage cryptographic keys
@@ -88,7 +89,7 @@
 - It is mainly used with service accounts
 - A URL that gives permission for limited time to perform specific actions
 
-#  Cloud Storage - **Static Websites**
+# Cloud Storage - **Static Websites**
 - Bucket Name same as domain name
 - Copy all files to bucket
 - Give access to all users by providing permissions
