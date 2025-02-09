@@ -92,7 +92,11 @@
 - Bucket Name same as domain name
 - Copy all files to bucket
 - Give access to all users by providing permissions
-    
+
+# Databases
+- RPO [Recovery Point Objective] - Maximum acceptable period of data loss
+- RTO [Recovery Time Objective] - Maximum acceptable downtime
+   
 # Scenarios
 - Compute Engine [IaaS] - VM management 
 - Google Kubernetes Engine [CaaS] - containerized apps with cluster
@@ -102,6 +106,9 @@
 - [Internal] VM to Cloud Storage/Pubsub - [Uses Google Managed Keys]
 - [External] On Premises to Cloud Storage - [Internal required Service Account User Managed Keys]
 - [External] On Premises to Google Cloud API's - [OAuth2, OpenIDConnect, JWT]
+- very small RTO [data loss - 1 mins] and RPO [downtime - 5 mins] - Hot Standby 
+- very critical data RTO [data loss - 1 mins] and RPO [downtime - 15 mins] - Warm Standby
+- very critical RTO [data loss - 1 mins] and High RPO [downtime - few hours] - Snapshots & Transaction Logs
 
 # GCloud Commands
 - Cloud Storage - gsutil
