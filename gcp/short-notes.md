@@ -80,9 +80,6 @@
 - Uses Private/public keys
 - Types
   - Default, User Defined & Google managed
-- [Internal] VM to Cloud Storage/Pubsub - [Uses Google Managed Keys]
-- [External] On Premises to Cloud Storage - [Internal required Service Account User Managed Keys]
-- [External] On Premises to Google Cloud API's - [OAuth2, OpenIDConnect, JWT]
 
 # ACL [Access Control List]  
 - We can provide customized permissions
@@ -102,6 +99,9 @@
 - App Engine [PaaS (CaaS, Serverless)] - Application code management
 - Cloud Functions [Faas] - Event driven apps
 - Cloud Run [CAAS (Serverless)] - containerized apps without cluster
+- [Internal] VM to Cloud Storage/Pubsub - [Uses Google Managed Keys]
+- [External] On Premises to Cloud Storage - [Internal required Service Account User Managed Keys]
+- [External] On Premises to Google Cloud API's - [OAuth2, OpenIDConnect, JWT]
 
 # GCloud Commands
 - Cloud Storage - gsutil
