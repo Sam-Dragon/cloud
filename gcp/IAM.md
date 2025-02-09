@@ -33,16 +33,17 @@
 - Members to roles is many-to-many relationship
 - Binding users to the role
   
-> Policy Troubleshooter
+> **Policy Troubleshooter**
 - It helps to troubleshoot permission for the user
 
 > Service Account
-- VM needs access to cloud storage
+- machine to machine communication 
 - Identified by email address [id-compute@developer.gserviceaccount.com]
 - Machine level interaction [No User Intervention]
 - It doesnt have any password
   - It use RSA Private/Public Key
   - Cannot login via browser or cookies
+Ex: VM needs access to cloud storage
 
 > Service Account Types
 - Default Service Account [NOT RECOMMENDED]: Automatically created when services are used
@@ -83,8 +84,6 @@
   - Enable Single Sign On 
 
 > Organization Policy Service
-- It is global contraints
+- It is global constraints
 - To apply constraints on all resources accross the organizations
 - Organization Policy Administrator role  
-
-Note: Section 23 [Role Information]
