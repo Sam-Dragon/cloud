@@ -73,6 +73,16 @@
   - Storage Object Creator: Creates objects in an a bucket
  
 - Custom Roles: if not defined in predefined roles 
+
+# Service Accounts
+- Mainly used for machine level access
+- It is associated to email address [No creds]
+- Uses Private/public keys
+- Types
+  - Default, User Defined & Google managed
+- [Internal] VM to Cloud Storage/Pubsub - [Uses Google Managed Keys]
+- [External] On Premises to Cloud Storage - [Internal required Service Account User Managed Keys]
+- [External] On Premises to Google Cloud API's - [OAuth2, OpenIDConnect, JWT]
     
 # Scenarios
 - Compute Engine [IaaS] - VM management 
