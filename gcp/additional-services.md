@@ -23,6 +23,7 @@ Example: Creating mutliple enviroments with similar configuration
 - It supports 2 zones: Public & Private
 
 # Cloud DataFlow
+- Used for migration
 - It is serverless
 - It is service which streams the data between platforms
 - Migrate data, compress data, convert formats
