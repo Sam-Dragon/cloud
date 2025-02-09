@@ -83,6 +83,18 @@
 - [Internal] VM to Cloud Storage/Pubsub - [Uses Google Managed Keys]
 - [External] On Premises to Cloud Storage - [Internal required Service Account User Managed Keys]
 - [External] On Premises to Google Cloud API's - [OAuth2, OpenIDConnect, JWT]
+
+# ACL [Access Control List]  
+- We can provide customized permissions
+
+# Cloud Storage - **Signed URL**
+- It is mainly used with service accounts
+- A URL that gives permission for limited time to perform specific actions
+
+#  Cloud Storage - **Static Websites**
+- Bucket Name same as domain name
+- Copy all files to bucket
+- Give access to all users by providing permissions
     
 # Scenarios
 - Compute Engine [IaaS] - VM management 
