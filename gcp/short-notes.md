@@ -124,3 +124,7 @@
 - Cloud Functions [deploy, service, revision] - gcloud functions
 - Pub/Sub [topics, subscriptions] - gcloud pubsub
 - IAM [roles] - gcloud iam
+
+# Additional
+- Cloud Build: CICD platform for deployment process. It primary task is to build, test and deploy apps
+- Cloud Composer: Fully mananged workflow orchastration service built on Apache Airflow 
