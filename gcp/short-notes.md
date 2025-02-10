@@ -125,7 +125,20 @@
   - Google Managed Service:
     - **Big Query**: uses petabytes of data
   - Use Cases: Reporting Systems, Data warehouses, Business Intelligence
-  
+
+# Non Relational Database
+- flexible schema, horizontal scaling, scalability & high performance
+- Google Managed Service
+  - **Cloud Firestore** [or Datastore++]:
+    - managed serverless no-sql **document** database
+    - strong consistency, mobile & web client libraries
+    - recommended for small to medium databases
+    - Exports the data from cloud bigquery to cloud storage
+  - **Cloud BigTable**:
+    - managed, scalable NoSQL **wide columnar** database but **not serverless**
+    - Recommended for operational & analytical workloads Not for transactional workloads [supports single row transactions]
+    - Export: cannot export using cloud console or gcloud but can be done using java app or hbase commands
+    - Use cases: IOT Streams, Graph and real time analytics [timeseries data, stock prices, financial data]
 # Scenarios
 - Compute Engine [IaaS] - VM management 
 - Google Kubernetes Engine [CaaS] - containerized apps with cluster
