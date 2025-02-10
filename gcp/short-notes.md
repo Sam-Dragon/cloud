@@ -97,7 +97,35 @@
 # Databases
 - RPO [Recovery Point Objective] - Maximum acceptable period of data loss
 - RTO [Recovery Time Objective] - Maximum acceptable downtime
-   
+- OLTP [Online Transaction Processing] - Tranasctions based
+- OLAP [Online Analytics Processing] - analytics based
+
+# Relational Database
+- fixed set of schema & strong transactional capabilities used for OLAP & OLTP usecases
+- OLTP
+  - **Row storage** supporting large number of transactions
+  - Popular databases : MySql, Postgres SQL, Oracle SQL etc..
+  - Google Managed Service:
+    - **Cloud SQL**:
+      - fully managed relational database service 
+      - supports MySQL, PostgresSQL & SQL Server for **regional** databases [upto few **TB's**]
+      - Automatic encryption, maintanance, updates, backups, storage increase & binary logging
+      - supports migration but with downtime
+      - data export from UI or gcloud
+      - High availability uses primary & standby instance. It cannot be used as a Read replica. At a time only single instance is connected
+    - **Cloud Spanner**:
+      - Fully managed, '**Mission critical**' database
+      - supports large transactions for global applications upto few **PB's**
+      - Higher availability, Strong transactional consistency, horizontal scaling
+      - data export can be done via cloud console or dataflow but 'gcloud export' is not supported
+  - Use cases - ERP, CRM, E-Commerce, Banking Apps
+- OLAP
+  - Mainly used for analytics 
+  - **Columnar storage** supporting very large number of transactions
+  - Google Managed Service:
+    - **Big Query**: uses petabytes of data
+  - Use Cases: Reporting Systems, Data warehouses, Business Intelligence
+  
 # Scenarios
 - Compute Engine [IaaS] - VM management 
 - Google Kubernetes Engine [CaaS] - containerized apps with cluster
