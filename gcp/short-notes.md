@@ -139,6 +139,18 @@
     - Recommended for operational & analytical workloads Not for transactional workloads [supports single row transactions]
     - Export: cannot export using cloud console or gcloud but can be done using java app or hbase commands
     - Use cases: IOT Streams, Graph and real time analytics [timeseries data, stock prices, financial data]
+
+# In-Memory Database
+- Retriving persistent data from memory
+- Use Cases: Caching, Session Management, Leader Board etc.
+- Google Managed Service:
+  - **Memory Store**
+    - Fully managed service
+    - Reduce access times
+    - Supports **Redis & Memcache**
+      - Memcache: Caching, Session store
+      - Redis: Leader Board, Player Profiles etc.  
+
 # Scenarios
 - Compute Engine [IaaS] - VM management 
 - Google Kubernetes Engine [CaaS] - containerized apps with cluster
