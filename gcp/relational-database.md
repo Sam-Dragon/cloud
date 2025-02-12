@@ -77,6 +77,7 @@
 - High availability uses primary & standby instance. It cannot be used as a Read replica. At a time only single instance is connected
 - Read replicas for newer version possible in cross zone, cross region & external
 - High availabiliy setup cannot be used as Read Replica
+- horizonal scaling only for writes
 
 > Cloud Spanner:
 - Fully managed, 'Mission critical' database
@@ -89,3 +90,5 @@
 - Scale to PB's of data with automatic sharding
 - Horizontal scaling
 - Export can be done via cloud console or dataflow but 'gcloud export' is not supported
+- horizonal scaling for reads and writes
+- no gcloud export option
