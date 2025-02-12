@@ -70,11 +70,12 @@
 - Use HHD's or SSD's
 - Upto 416GB of RAM & 30TB of data storage
 - Automatic encryption, maintanance, updates, backups & binary logging
-- Automatic storage increase
+- Automatic storage increase without downtime
 - Point in time recovery
-- Supports Migration
+- Supports Migration but with downtime
 - Export data from UI or gcloud
 - High availability uses primary & standby instance. It cannot be used as a Read replica. At a time only single instance is connected
+- Read replicas for newer version possible in cross zone, cross region & external
 
 > Cloud Spanner:
 - Fully managed, 'Mission critical' database
