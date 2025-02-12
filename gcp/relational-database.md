@@ -76,6 +76,7 @@
 - Export data from UI or gcloud
 - High availability uses primary & standby instance. It cannot be used as a Read replica. At a time only single instance is connected
 - Read replicas for newer version possible in cross zone, cross region & external
+- High availabiliy setup cannot be used as Read Replica
 
 > Cloud Spanner:
 - Fully managed, 'Mission critical' database
