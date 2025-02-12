@@ -29,7 +29,7 @@
 - Not recommended for transactional workloads [supports single row transactions] 
 - Petabyte scale, wide column NoSQL db (HBase Compatible)
 - supports single row transactions
-- Not Serverless: Instance is mandatory
+- scale horizontally with multiple nodes [No downtime for cluster resizing]
 - Export: cannot export using cloud console or gcloud but can be done using java app or hbase commands
 - use 'cbt' command line tool (NOT gcloud)
 - Use cases: IOT Streams, Graph and real time analytics [timeseries data, stock prices, financial data]
