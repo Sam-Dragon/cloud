@@ -138,8 +138,9 @@
     - Use cases: user profile, product catalogs
   - **Cloud BigTable**:
     - managed, scalable NoSQL **wide columnar** database but **not serverless**
+    - scale horizontally with multiple nodes **[No downtime for cluster resizing]**
     - Recommended for operational & analytical workloads Not for transactional workloads [supports single row transactions]
-    - Export: cannot export using cloud console or gcloud but can be done using java app or hbase commands
+    - Export: cannot export using cloud console nor gcloud but can be done using java app or hbase commands
     - Use cases: IOT Streams, Graph and real time analytics [timeseries data, stock prices, financial data]
 
 # In-Memory Database
