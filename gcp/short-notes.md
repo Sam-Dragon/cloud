@@ -136,6 +136,14 @@
 # Non Relational Database
 - flexible schema, horizontal scaling, scalability & high performance
 - Google Managed Service
+  - **Cloud Datastore**
+    - Highly scalable no-sql document database
+    - Reommended for few TB's of data
+    - Supports transactions, indexes & SQL like queries [GQL]
+    - Used for flexible schema with transactions
+    - Structure: Kind > Entity [use namespaces to group entities]
+    - Export only from gcloud [Not from cloud console]
+    - Exports the data from cloud bigquery to cloud storage
   - **Cloud Firestore** [or Datastore++]:
     - managed serverless no-sql **document** database
     - strong consistency, mobile & web client libraries
