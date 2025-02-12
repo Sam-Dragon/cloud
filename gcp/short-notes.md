@@ -130,6 +130,7 @@
       - Import/export supports variety of formats like CSV, AVRO etc..
       - automatically expire data
       - query external data sources without storing data in bigquery
+      - really expensive
   - Use Cases: Reporting Systems, Data warehouses, Business Intelligence
 
 # Non Relational Database
