@@ -134,7 +134,8 @@
     - managed serverless no-sql **document** database
     - strong consistency, mobile & web client libraries
     - recommended for small to medium databases
-    - Exports the data from cloud bigquery to cloud storage
+    - Exports the data from cloud bigquery to cloud storage not from cloud console
+    - Use cases: user profile, product catalogs
   - **Cloud BigTable**:
     - managed, scalable NoSQL **wide columnar** database but **not serverless**
     - Recommended for operational & analytical workloads Not for transactional workloads [supports single row transactions]
