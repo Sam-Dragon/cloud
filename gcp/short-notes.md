@@ -110,7 +110,7 @@
       - fully managed relational database service 
       - supports MySQL, PostgresSQL & SQL Server for **regional** databases [upto few **TB's**]
       - Automatic encryption, maintanance, updates, backups, storage increase & binary logging
-      - supports migration but with downtime
+      - supports **migration but with downtime**
       - data export from UI or gcloud
       - High availability uses primary & standby instance. It cannot be used as a Read replica. At a time only single instance is connected
     - **Cloud Spanner**:
