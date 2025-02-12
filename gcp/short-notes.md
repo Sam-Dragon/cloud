@@ -114,7 +114,7 @@
       - data export from UI or gcloud
       - High availability uses primary & standby instance. It cannot be used as a Read replica. At a time only single instance is connected
     - **Cloud Spanner**:
-      - Fully managed, '**Mission critical**' database
+      - Fully managed, '**Mission critical**' database [global database]
       - supports large transactions for global applications upto few **PB's**
       - Higher availability, Strong transactional consistency, horizontal scaling
       - data export can be done via cloud console or dataflow but 'gcloud export' is not supported
