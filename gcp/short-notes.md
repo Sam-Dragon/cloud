@@ -124,7 +124,12 @@
   - Mainly used for analytics 
   - **Columnar storage** supporting very large number of transactions
   - Google Managed Service:
-    - **Big Query**: uses petabytes of data
+    - **Big Query**:
+      - extrabyte scale data warehousing 
+      - uses petabytes of data
+      - Import/export supports variety of formats like CSV, AVRO etc..
+      - automatically expire data
+      - query external data sources without storing data in bigquery
   - Use Cases: Reporting Systems, Data warehouses, Business Intelligence
 
 # Non Relational Database
