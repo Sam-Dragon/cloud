@@ -113,6 +113,7 @@
       - supports **migration but with downtime**
       - data export from UI or gcloud
       - High availability uses primary & standby instance. It cannot be used as a Read replica. At a time only single instance is connected
+      - High availabiliy setup cannot be used as Read Replica
     - **Cloud Spanner**:
       - Fully managed, '**Mission critical**' database [global database]
       - supports large transactions for global applications upto few **PB's**
