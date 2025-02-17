@@ -6,4 +6,8 @@
 - It is used to monitor one or more GCP projects and one or more AWS accounts
 - Workspace:  organize monitoring information for multiple projects or aws accounts
 
-- Cloud VM 
+> Logging
+- Real time log management and analysis tool
+- fully managed service
+- Logs Explorer
+- Logs Dashboard
