@@ -14,3 +14,9 @@
 - Automatically sends logs for GKE, Cloud Run, App Engine
 - Ingest logs from GCP VM's - using Logging Agent
 - Ingest logs from on-premises - Bindplane tool from Blue Medora (OR) using cloud Logging API
+
+> Logs Type
+- Admin Activity Logs
+- Data Access Logs
+- System Event Logs
+- Policy Denied Logs
