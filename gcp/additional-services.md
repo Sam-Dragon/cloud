@@ -24,17 +24,17 @@ Example: Creating mutliple enviroments with similar configuration
 - It supports 2 zones: Public & Private
 
 # Cloud DataFlow
-- It is data-processing tool not migration
-- It is serverless
+- It is data-processing tool **not migration**
+- It is **serverless**
 - It is service which streams/load the data between platforms
 - Stream data, compress data, convert formats
-- It is based on Apache Beam
+- It is based on Apache Beam (supports java, go, python etc..)
 - Example: Fraud Detection, Sensor Data Processing, Batch Processing
 
 # Cloud DataProc
-- Managed Spark & Hadoop Service
+- Managed **Spark & Hadoop Service**
 - It is mainly used for AI/ML
-- It uses VM internally
+- It uses **VM internally** [regular/preemtible]
 - Modes: Single/Standard/High Availability [3 replicas]
-- It is data analysis platform
-- Alternative: BigQuery
+- It is **data analysis platform**
+- Alternative: BigQuery 
