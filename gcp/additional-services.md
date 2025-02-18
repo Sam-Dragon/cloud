@@ -26,10 +26,10 @@ Example: Creating mutliple enviroments with similar configuration
 # Cloud DataFlow
 - It is data-processing tool not migration
 - It is serverless
-- It is service which streams the data between platforms
-- Migrate data, compress data, convert formats
-- Example: Fraud Detection, Sensor Data Processing, Batch Processing
+- It is service which streams/load the data between platforms
+- Stream data, compress data, convert formats
 - It is based on Apache Beam
+- Example: Fraud Detection, Sensor Data Processing, Batch Processing
 
 # Cloud DataProc
 - Managed Spark & Hadoop Service
