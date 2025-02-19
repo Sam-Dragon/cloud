@@ -12,7 +12,7 @@
 - custom-mode VPC network: manually created, subents are controlled. recommended for production
 
 # Subnets
-- It is associated to region or zone
+- It is associated to region 
 - It helps you to seperate private resources [Internet NON accessible] from public resources [Internet accessible]
 - It distributes resources across multiple regions for high availability
 - IP's are ranged using CIDR blocks
@@ -25,7 +25,7 @@
 
 # CIDR [Classless Inter-Domain Routing] blocks
 - It contains the starting IP address & range [/28]
-- [/28] - indicates the first 28bits are fixed and last 4 bits can vary [i.e 2 ^ 4 = 16],
+- Range [/28] - indicates the first 28bits are fixed and last 4 bits can vary [i.e 2 ^ 4 = 16],
   that means total 16 IP addresses will be there
 
 # Firewall Rules
@@ -33,30 +33,33 @@
 - It is stateful
 - each rule has priority assigned [0 [high] - 65535 [low - Default]]
 - All egress is allowed but ingress is not [It must be overridden]
+- It allows egress, ssh, rdc, ipcl
 
 # Shared VPC
-- **Organization has multiple projects and u want projects to communicate with each other**
+- **Organization has multiple projects and you want projects to communicate with each other**
 - It can be achieved by creating share VPC at organization or folder level [Access Role: **Shared VPC Admin**]
 - Network admins responsible for Host projects & resource users use service project
+- It is centralized approach
 
 # VPC Peering
-- Connects VPC networks accross different organizations
+- Connects VPC networks accross **different organizations**
 - Networks in same project, different project & accross project in different organizations
 - All communications are internal IP address. [Not accessible via internet]
+- It is decentralized approach
 
 # Hybrid Cloud
 > Cloud VPN
 - connect on-premise network to gcp network
 - Implemented using IPSEC vpn tunnel
 - Types: HA VPN [Dynamic Routing], Classic VPN [Static Routing]
-- useful in low bandwidth needs
+- Useful in low bandwidth needs
 
 > Cloud Interconnect
 - High speed physical connection between on-premise and vpc network
-- Types: Dedicate Interconnect, Partner interconnect
+- Types: Dedicate Interconnect [Recommended], Partner interconnect
 - Data exchanges happens through a private network
 - supports google api's and services can be privately accessed from on-premise
-- useful in high bandwidth needs
+- Useful in high bandwidth needs
 
 > Direct Peering
 - connect customer network to google network
