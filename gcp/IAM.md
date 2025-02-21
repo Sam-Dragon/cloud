@@ -1,7 +1,7 @@
 # Hierarchy
 - Organization -> Folder -> Projects -> Resources
 - [Organization + Folder] not applicable in free tier account
-- One project per application per enviroment
+- One project per application per enviroment [Example: Dev, Prod, Stage]
 
 # IAM [Identity & Access Management]
 - To control the acess to the system based on authentication & Authorization
@@ -32,6 +32,13 @@
   - user, serviceaccount, group or domain
 - Members to roles is many-to-many relationship
 - Binding users to the role
+
+> IAM Members/Identities
+- Google Account: Represents a person [email]
+- Service Account: Represents an application account [Not Person]
+- Google Group: Collection - Google & Service Accounts
+- Google Workspace Domain: google workspace or gsuite to managed all google services
+- Cloud Identity Domain: identity as service to centrally manage users & groups
   
 > **Policy Troubleshooter**
 - It helps to troubleshoot permission for the user
@@ -80,10 +87,25 @@ Ex: VM needs access to cloud storage
 
 > User Identity Management
 - Google Workspace [GSuite]
-- External Identity Providers [Active Directory or Azure Active Directory]
-  - Enable Single Sign On 
+- Corporate Directory Federation : federate cloud identity or google workspace with external identity provider such as Active Directory or Azure Active Directory
 
 > Organization Policy Service
-- It is global constraints
-- To apply constraints on all resources accross the organizations
-- Organization Policy Administrator role  
+- It is global constraints [centralized constraints on the resources]
+- Example: Deny Service Account Creation,
+- Organization Policy Administrator role
+- organization policy overrides all the constraints specified by IAM (OR) ACL 
+
+# Billing Account
+- It can be associated with one or more projects
+- organization can have multiple billing accounts
+- Types: Self Served [Credit Card, Bank Account] or Invoiced [Large organizations]
+- billing data can be exported to BigQuery [Visualization] (OR) Cloud Storage[History/Archiving]
+- billing exports type - BigQuery Export (OR) File Export to Cloud Storage
+
+# Scenario
+- App Engine Deployer -> Deploy the apps but cant shift traffic
+- App Engine Service Admin -> It can shift traffic but cant deploy
+- IAM Group -> In case of providing access to operations team for production access
+- IAM Role -> In case of providing access to specific team member for production access
+- Viewer -> Auditor role to read  but no edit access for all resources
+- Cloud Storage Viewer -> project A wants to access cloud storage of project B
