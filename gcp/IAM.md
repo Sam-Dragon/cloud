@@ -115,4 +115,8 @@ Ex: VM needs access to cloud storage
 - IAM Role -> In case of providing access to specific team member for production access
 - Viewer -> Auditor role to read  but no edit access for all resources
 - Cloud Storage Viewer -> project A wants to access cloud storage of project B
-
+- Organization Administrator -> defines resource hierarchy, access management policies, manage roles and policies
+- Billing Account Creator -> create billing accounts
+- Billing Account Administrator -> Manages the billing accounts but cannot create billing account
+- Billing Account User -> Associate project with billing accounts [Project Owner]
+- Billing Account Viewer -> only view the billing account details 
