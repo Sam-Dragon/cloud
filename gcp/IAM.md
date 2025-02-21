@@ -3,6 +3,12 @@
 - [Organization + Folder] not applicable in free tier account
 - One project per application per enviroment [Example: Dev, Prod, Stage]
 
+
+> Permission Hierarchy
+- ACL: lowest level to provide specific permissions for resource
+- IAM Policies: role based permissions for resource
+- Organization Policies: Global configuration for permissions for resource
+
 # IAM [Identity & Access Management]
 - To control the acess to the system based on authentication & Authorization
 - It gives fine grain control to users in order to access the resource based on role assigned
@@ -109,3 +115,4 @@ Ex: VM needs access to cloud storage
 - IAM Role -> In case of providing access to specific team member for production access
 - Viewer -> Auditor role to read  but no edit access for all resources
 - Cloud Storage Viewer -> project A wants to access cloud storage of project B
+
