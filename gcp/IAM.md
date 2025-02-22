@@ -134,4 +134,24 @@ Ex: VM needs access to cloud storage
 - **App Engine Code Viewer** -> read the code of the application
 - App Engine Deployer -> version(CRD), applications/services/versions
 - App Engine Service Admin -> versions (RUD), applications (R), services/instances (CRUD) operations. split or migrate traffic, start & stop version
+- Kubernetes Engine admin - complete access to everything i.e cluster & API objects
+- Kubernetes Engine cluster admin - complete access to cluster
+- Kubernetes Engine Developer - complete access to API objects
+- Kubernetes Engine viwer - get/list cluster & API objects
+- Storage Admin - complete access to buckets and objects
+- Storage Object Admin - complete access to objects but not buckets
+- Storage Object Creator - create/delete access to objects
+- Storage Object Viewer - get/list to objects
+- BigQuery Admin - Everything such as datasets and jobs
+- BigQuery Data Owner - datasets/models/routines/tables but no jobs
+- BigQuery Data Editor - edit the datasets
+- BigQuery Data Viewer - view the datasets
+- BigQuery Job User - create/delete jobs
+- BigQuery User - data viewer and jobs
+- Loggin Admin - complete access to logs
+- Logging Viewer - read all logs **except** data access transperency logs and data access audit logs
+- Logging Private Viewer -  read all logs **including** data access transperency logs and data access audit logs
+- Service Account Admin - create and manage service account
+- Service Account User - run operations as service account
+- Service Account Token Creator - create and manage service account keys
 **Note**: App engine doesnt allow you to view or download logs, view monitoring charts, enable/disable billing, access config or data stored in services
