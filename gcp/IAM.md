@@ -120,3 +120,18 @@ Ex: VM needs access to cloud storage
 - Billing Account Administrator -> Manages the billing accounts but cannot create billing account
 - Billing Account User -> Associate project with billing accounts [Project Owner]
 - Billing Account Viewer -> only view the billing account details 
+- Compute Engine Admin -> complete control of compute stuff. everything of compute stuff
+- Compute Instance Admin -> complete control of compute instance and disks
+- Compute Engine Network Admin -> complete access to networking resources and read only access to firewall rules and certs
+- Compute Engine Security Admin -> complete access to firewall rules and ssl certs
+- Compute Storage Admin -> complete access to disks, images & snapshots
+- Compute Engine Viewer -> read only access to everything to compute
+- Compute OS Admin Login -> log into compute engine instance as admin user
+- Compute OS Login -> log into compute engine instance as standard user
+- App Engine Creator -> create/delete applications
+- App Engine Admin -> read/update applications, CRUD operations for services/instances/version/operations
+- App Engine Viewer -> read all the application resources
+- **App Engine Code Viewer** -> read the code of the application
+- App Engine Deployer -> version(CRD), applications/services/versions
+- App Engine Service Admin -> versions (RUD), applications (R), services/instances (CRUD) operations. split or migrate traffic, start & stop version
+**Note**: App engine doesnt allow you to view or download logs, view monitoring charts, enable/disable billing, access config or data stored in services
