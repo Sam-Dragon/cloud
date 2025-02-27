@@ -3,7 +3,8 @@
 - It is called object storage. no partial updates allowed
 - It provides rest-service endpoints
 - It store all kind of files - text, binary, backup & archives
-- We can have any number of objects 
+- We can have any number of objects
+- It is responsible to store the data in case of backup & recovery
 
 > Bucket
 - Container to store all the objects in cloud. It must be globally unique 
@@ -14,7 +15,7 @@
 - **Standard**: Best for **short term storage** and frequently access data
 - **Nearline**: Best for **backups** and data access less than a **month**
 - **Coldline**: Best for **disaster recovery** and data access less than a **quarter**
-- **Archive**:  Best for **long-term digital preservation** of data and data access less than a **year**
+- **Archive**:  Best for **disaster recovery for long-term digital preservation** of data and data access less than a **year**
 
 > Objects
 - They are stored in buckets
